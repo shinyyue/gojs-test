@@ -1,0 +1,62 @@
+{
+  "class": "GraphLinksModel",
+  "nodeDataArray": [{
+      "category": "Model",
+      "icon": "peidiangui",
+      "svgSize": 32,
+      "iconSize": 60,
+      "runColor": "red",
+      "stopColor": "#9E9E9E",
+      "key": -2,
+      "pos": "-387.5 -528"
+    },
+    {
+      "category": "Text",
+      "stroke": "#333",
+      "text": "冷却塔",
+      "margin": 5,
+      "font": "bold 14pt helvetica, bold arial, sans-serif",
+      "key": -1,
+      "pos": "-422 -556"
+    },
+    {
+      "category": "Model",
+      "icon": "peidiangui",
+      "svgSize": 32,
+      "iconSize": 60,
+      "runColor": "red",
+      "stopColor": "#9E9E9E",
+      "key": -3,
+      "pos": "-387 -424"
+    },
+    {
+      "category": "Text",
+      "stroke": "#333",
+      "text": "冷却塔",
+      "margin": 5,
+      "font": "bold 14pt helvetica, bold arial, sans-serif",
+      "key": -4,
+      "pos": "-420 -452"
+    },
+    {
+      "category": "Model",
+      "icon": "peidiangui",
+      "svgSize": 32,
+      "iconSize": 60,
+      "runColor": "red",
+      "stopColor": "#9E9E9E",
+      "key": -5,
+      "pos": "-387.5 -316"
+    },
+    {
+      "category": "Text",
+      "stroke": "#333",
+      "text": "冷却塔",
+      "margin": 5,
+      "font": "bold 14pt helvetica, bold arial, sans-serif",
+      "key": -6,
+      "pos": "-422 -347"
+    }
+  ],
+  "linkDataArray": []
+}

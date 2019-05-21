@@ -1,0 +1,47 @@
+<div class="edit" style="width: 1200px; height: 500px; background: #fff; border: 1px solid #f2f2f2;padding: 10px;">
+  <!-- <h3>welcom to edit!</h3> -->
+  <!-- <div id="myPalette" style="width: 800px; height: 120px;"></div> -->
+  <div id="editDiagram" style="width: 100%; height: 100%;"></div>
+  <select ng-model="checkedColor">
+    <option>#333</option>
+    <option>red</option>
+    <option>blue</option>
+  </select>
+  <div class="myPalettePanel">
+    <div slot="header">热力</div>
+    <div id="fPaletteDiv" style="width: 100%; height: 500px;"></div>
+  </div>
+
+  <div class="operation">
+    <input type="text" ng-model="currentText" />
+  </div>
+
+  <button ng-click="save()">保存</button>
+  <button ng-click="clear()">清空画布</button>
+  <button ng-click="addPort()">添加端口</button>
+
+  <div>
+    <button ng-click="edit()">操作</button>
+  </div>
+</div>
+
+<style>
+  .edit {
+    position: relative;
+  }
+
+  .myPalettePanel {
+    box-sizing: border-box;
+    /* position: absolute;
+    right: 0px;
+    top: 10px;
+    width: 100px;
+    height: 100%;
+    background: #fff;
+    z-index: 1000; */
+    width: 1200px;
+    /* height: 300px; */
+    border: 1px solid #eee;
+    padding: 4px 8px;
+  }
+</style>

@@ -1,0 +1,1454 @@
+{
+	"class": "go.GraphLinksModel",
+	"linkFromPortIdProperty": "fromPort",
+	"linkToPortIdProperty": "toPort",
+	"modelData": {
+		"position": "-1483.5301030546652 -506"
+	},
+	"nodeDataArray": [{
+		"category": "Area",
+		"key": -5,
+		"pos": "50 50",
+		"strokeWidth": {
+			"class": "NaN"
+		},
+		"width": 2100,
+		"height": 1100,
+		"stroke": "#9E9E9E"
+	}, {
+		"category": "Area",
+		"key": -2,
+		"pos": "50 -425",
+		"width": 2040,
+		"height": 90,
+		"strokeWidth": 5,
+		"stroke": "#000000"
+	}, {
+		"category": "Area",
+		"key": -3,
+		"pos": "890 110",
+		"width": 360,
+		"height": 920,
+		"strokeWidth": 5,
+		"stroke": "#000000"
+	}, {
+		"category": "Area",
+		"key": -4,
+		"pos": "-850 110",
+		"width": 240,
+		"height": 920,
+		"strokeWidth": 5,
+		"stroke": "#000000"
+	}, {
+		"category": "Area",
+		"key": -6,
+		"pos": "-392.5 225",
+		"strokeWidth": 5,
+		"width": 620,
+		"height": 690,
+		"stroke": "#000000"
+	}, {
+		"category": "Area",
+		"key": -7,
+		"pos": "315 225",
+		"strokeWidth": 5,
+		"width": 730,
+		"height": 690,
+		"stroke": "#000000"
+	}, {
+		"category": "Text",
+		"stroke": "#4CAF50",
+		"text": "2#微电网跳转",
+		"key": -1,
+		"pos": "300 500",
+		"textName": "2号字体",
+		"font": "bold 32px sans-serif"
+	}, {
+		"category": "Text",
+		"stroke": "#4CAF50",
+		"text": "统计信息",
+		"key": -9,
+		"pos": "-850 -280",
+		"textName": "2号字体",
+		"font": "bold 32px sans-serif"
+	}, {
+		"category": "Text",
+		"stroke": "#4CAF50",
+		"text": "实时数据",
+		"key": -10,
+		"pos": "890 -290",
+		"textName": "2号字体",
+		"font": "bold 32px sans-serif"
+	}, {
+		"category": "Click",
+		"color": "transparent",
+		"width": 240,
+		"height": 40,
+		"key": -11,
+		"pos": "300 500",
+		"tag": "jump",
+		"name": "2#微电网系统图",
+		"pt": "5c91e0c0e5798800013a35fc",
+		"path": "graph",
+		"label": {
+			"subheader": "状态监控",
+			"icon": "wallpaper",
+			"iconClass": " white--text",
+			"title": "监控画面",
+			"tab": 5,
+			"path": "graph",
+			"width": ["1920", "1920", "1920"]
+		}
+	}, {
+		"category": "Click",
+		"color": "transparent",
+		"width": 240,
+		"height": 40,
+		"key": -12,
+		"pos": "-400 500",
+		"tag": "jump",
+		"name": "1#微电网系统图",
+		"pt": "5c91e0b5e5798800013a35fa",
+		"path": "graph",
+		"label": {
+			"subheader": "状态监控",
+			"icon": "wallpaper",
+			"iconClass": " white--text",
+			"title": "监控画面",
+			"tab": 5,
+			"path": "graph",
+			"width": ["1920", "1920", "1920"]
+		}
+	}, {
+		"category": "Text",
+		"stroke": "#4CAF50",
+		"text": "1#微电网跳转",
+		"key": -13,
+		"pos": "-400 500",
+		"textName": "2号字体",
+		"font": "bold 32px sans-serif"
+	}, {
+		"category": "Text",
+		"stroke": "#2196F3",
+		"text": "电量报表",
+		"key": -14,
+		"pos": "-850 -210",
+		"textName": "2号字体",
+		"font": "bold 32px sans-serif"
+	}, {
+		"category": "Click",
+		"color": "transparent",
+		"width": 170,
+		"height": 60,
+		"key": -15,
+		"pos": "-850 -210",
+		"tag": "jump",
+		"name": "发电量统计",
+		"pt": "5c47f36a7e2f240001d50ac2",
+		"path": "report",
+		"label": {
+			"icon": "border_outer",
+			"iconClass": " white--text",
+			"title": "报表统计",
+			"tab": 4,
+			"path": "report",
+			"width": ["960", "960", "1920"]
+		}
+	}, {
+		"category": "Click",
+		"color": "transparent",
+		"width": 170,
+		"height": 60,
+		"key": -18,
+		"pos": "-850 -140",
+		"tag": "jump",
+		"name": "功率曲线",
+		"pt": "5c4afa77702a2a00010f5987",
+		"path": "history",
+		"label": {
+			"icon": "multiline_chart",
+			"iconClass": " white--text",
+			"title": "运行曲线",
+			"tab": 3,
+			"path": "history",
+			"width": ["640", "640", "1920"]
+		}
+	}, {
+		"category": "Text",
+		"stroke": "#2196F3",
+		"text": "运行曲线",
+		"key": -19,
+		"pos": "-850 -140",
+		"textName": "2号字体",
+		"font": "bold 32px sans-serif"
+	}, {
+		"category": "Text",
+		"stroke": "#4CAF50",
+		"text": "楼顶光伏",
+		"key": -20,
+		"pos": "-850 -70",
+		"textName": "2号字体",
+		"font": "bold 32px sans-serif"
+	}, {
+		"category": "Click",
+		"color": "transparent",
+		"width": 170,
+		"height": 60,
+		"key": -21,
+		"pos": "-850 -70",
+		"tag": "jump",
+		"name": "楼顶光伏发电量报表",
+		"pt": "5c933a6ae5798800013a39fe",
+		"path": "report",
+		"label": {
+			"icon": "border_outer",
+			"iconClass": " white--text",
+			"title": "报表统计",
+			"tab": 4,
+			"path": "report",
+			"width": ["960", "960", "1920"]
+		}
+	}, {
+		"category": "Click",
+		"color": "transparent",
+		"width": 170,
+		"height": 60,
+		"key": -22,
+		"pos": "-850 0",
+		"tag": "jump",
+		"name": "光伏总发电功率",
+		"pt": "5c92fa22e5798800013a3863",
+		"path": "history",
+		"label": {
+			"icon": "multiline_chart",
+			"iconClass": " white--text",
+			"title": "运行曲线",
+			"tab": 3,
+			"path": "history",
+			"width": ["640", "640", "1920"]
+		}
+	}, {
+		"category": "Text",
+		"stroke": "#4CAF50",
+		"text": "发电曲线",
+		"key": -23,
+		"pos": "-850 0",
+		"textName": "2号字体",
+		"font": "bold 32px sans-serif"
+	}, {
+		"category": "Text",
+		"stroke": "#2196F3",
+		"text": "交换功率",
+		"key": -24,
+		"pos": "780 -220",
+		"textName": "3号字体",
+		"font": "bold 24px sans-serif"
+	}, {
+		"category": "Text",
+		"stroke": "#2196F3",
+		"text": "kW",
+		"key": -25,
+		"pos": "1030 -220",
+		"textName": "3号字体",
+		"font": "bold 24px sans-serif"
+	}, {
+		"category": "Number",
+		"stroke": "#000000",
+		"text": 0,
+		"key": -26,
+		"pos": "920 -220",
+		"textName": "2号字体",
+		"font": "bold 32px sans-serif",
+		"tag": "point",
+		"name": "大电网交换功率",
+		"pt": "dp_5c932efde5798800013a39de_0:5"
+	}, {
+		"category": "Number",
+		"stroke": "#000000",
+		"text": 0,
+		"key": -27,
+		"pos": "920 -150",
+		"textName": "2号字体",
+		"font": "bold 32px sans-serif",
+		"tag": "point",
+		"name": "光伏总有功功率",
+		"pt": "dp_5c46fa58dbaf970001f7c317_0:1"
+	}, {
+		"category": "Text",
+		"stroke": "#2196F3",
+		"text": "kW",
+		"key": -28,
+		"pos": "1030 -150",
+		"textName": "3号字体",
+		"font": "bold 24px sans-serif"
+	}, {
+		"category": "Text",
+		"stroke": "#2196F3",
+		"text": "光伏发电",
+		"key": -29,
+		"pos": "780 -150",
+		"textName": "3号字体",
+		"font": "bold 24px sans-serif"
+	}, {
+		"category": "Text",
+		"stroke": "#2196F3",
+		"text": "风机发电",
+		"key": -30,
+		"pos": "780 -80",
+		"textName": "3号字体",
+		"font": "bold 24px sans-serif"
+	}, {
+		"category": "Text",
+		"stroke": "#2196F3",
+		"text": "kW",
+		"key": -31,
+		"pos": "1030 -80",
+		"textName": "3号字体",
+		"font": "bold 24px sans-serif"
+	}, {
+		"category": "Number",
+		"stroke": "#000000",
+		"text": 0,
+		"key": -32,
+		"pos": "920 -80",
+		"textName": "2号字体",
+		"font": "bold 32px sans-serif",
+		"tag": "point",
+		"name": "风机发电总功率",
+		"pt": "dp_5c484b8a59fa520001054cca_0:1"
+	}, {
+		"category": "Text",
+		"stroke": "#4CAF50",
+		"text": "气象信息",
+		"key": -36,
+		"pos": "-850 225",
+		"textName": "2号字体",
+		"font": "bold 32px sans-serif"
+	}, {
+		"category": "Text",
+		"stroke": "#2196F3",
+		"text": "今日白天",
+		"key": -37,
+		"pos": "-910 290",
+		"textName": "3号字体",
+		"font": "bold 24px sans-serif"
+	}, {
+		"category": "Text",
+		"stroke": "#2196F3",
+		"text": "℃",
+		"key": -38,
+		"pos": "-760 290",
+		"textName": "3号字体",
+		"font": "bold 24px sans-serif"
+	}, {
+		"category": "Number",
+		"stroke": "#000000",
+		"text": 0,
+		"key": -39,
+		"pos": "-820 290",
+		"textName": "2号字体",
+		"font": "bold 32px sans-serif",
+		"tag": "point",
+		"name": "今天白天温度",
+		"pt": "dw_5c458fde1c18100001f120b5_0:5"
+	}, {
+		"category": "Number",
+		"stroke": "#000000",
+		"text": 0,
+		"key": -40,
+		"pos": "-820 360",
+		"textName": "2号字体",
+		"font": "bold 32px sans-serif",
+		"tag": "point",
+		"name": "今天夜间温度",
+		"pt": "dw_5c458fde1c18100001f120b5_0:6"
+	}, {
+		"category": "Text",
+		"stroke": "#2196F3",
+		"text": "℃",
+		"key": -41,
+		"pos": "-760 360",
+		"textName": "3号字体",
+		"font": "bold 24px sans-serif"
+	}, {
+		"category": "Text",
+		"stroke": "#2196F3",
+		"text": "今日夜间",
+		"key": -42,
+		"pos": "-910 360",
+		"textName": "3号字体",
+		"font": "bold 24px sans-serif"
+	}, {
+		"category": "Text",
+		"stroke": "#2196F3",
+		"text": "明日夜间",
+		"key": -43,
+		"pos": "-910 500",
+		"textName": "3号字体",
+		"font": "bold 24px sans-serif"
+	}, {
+		"category": "Text",
+		"stroke": "#2196F3",
+		"text": "℃",
+		"key": -44,
+		"pos": "-760 500",
+		"textName": "3号字体",
+		"font": "bold 24px sans-serif"
+	}, {
+		"category": "Number",
+		"stroke": "#000000",
+		"text": 0,
+		"key": -45,
+		"pos": "-820 500",
+		"textName": "2号字体",
+		"font": "bold 32px sans-serif",
+		"tag": "point",
+		"name": "明天夜间温度",
+		"pt": "dw_5c458fde1c18100001f120b5_0:16"
+	}, {
+		"category": "Number",
+		"stroke": "#000000",
+		"text": 0,
+		"key": -46,
+		"pos": "-820 430.00000000000006",
+		"textName": "2号字体",
+		"font": "bold 32px sans-serif",
+		"tag": "point",
+		"name": "明天白天温度",
+		"pt": "dw_5c458fde1c18100001f120b5_0:15"
+	}, {
+		"category": "Text",
+		"stroke": "#2196F3",
+		"text": "℃",
+		"key": -47,
+		"pos": "-760 430",
+		"textName": "3号字体",
+		"font": "bold 24px sans-serif"
+	}, {
+		"category": "Text",
+		"stroke": "#2196F3",
+		"text": "明日白天",
+		"key": -48,
+		"pos": "-910 430",
+		"textName": "3号字体",
+		"font": "bold 24px sans-serif"
+	}, {
+		"category": "Text",
+		"stroke": "#2196F3",
+		"text": "东软载波微电网监控总图",
+		"key": -49,
+		"pos": "0 -425",
+		"textName": "1号字体",
+		"font": "bold 40px sans-serif"
+	}, {
+		"category": "Model",
+		"icon": "guangfu",
+		"svgSize": 55,
+		"iconSize": 60,
+		"runColor": "#F44336",
+		"stopColor": "#9E9E9E",
+		"key": -51,
+		"pos": "-600 300",
+		"tag": "point",
+		"name": "1#微电网光伏发电",
+		"pt": "dp_5c932efde5798800013a39de_0:1"
+	}, {
+		"category": "Model",
+		"icon": "dianchi",
+		"svgSize": 55,
+		"iconSize": 60,
+		"runColor": "#F44336",
+		"stopColor": "#F44336",
+		"key": -53,
+		"pos": "-400 300",
+		"tag": "point",
+		"name": "试制中心-PCS_交流侧有功功率",
+		"pt": "dc_5c467c901c18100001f120bb_37:731"
+	}, {
+		"category": "Model",
+		"icon": "fengche",
+		"svgSize": 55,
+		"iconSize": 60,
+		"runColor": "#F44336",
+		"stopColor": "#9E9E9E",
+		"key": -54,
+		"pos": "50 300",
+		"tag": "point",
+		"name": "风机发电总功率",
+		"pt": "dp_5c484b8a59fa520001054cca_0:1"
+	}, {
+		"category": "Connect",
+		"key": -55,
+		"pos": "-400 100"
+	}, {
+		"category": "Model",
+		"icon": "bianyaqi",
+		"svgSize": 55,
+		"iconSize": 60,
+		"runColor": "#F44336",
+		"stopColor": "#9E9E9E",
+		"key": -56,
+		"pos": "-400 -50",
+		"tag": "point",
+		"name": "1#厂房PLC_1#网关柜下口-P",
+		"pt": "dc_5c467c901c18100001f120bb_38:765"
+	}, {
+		"category": "Connect",
+		"key": -57,
+		"pos": "-600 100"
+	}, {
+		"category": "Connect",
+		"key": -58,
+		"pos": "50 100"
+	}, {
+		"category": "Connect",
+		"key": -60,
+		"pos": "-200 100"
+	}, {
+		"category": "Model",
+		"icon": "tongyongshebei",
+		"svgSize": 55,
+		"iconSize": 60,
+		"runColor": "#F44336",
+		"stopColor": "#9E9E9E",
+		"key": -59,
+		"pos": "-200 300",
+		"tag": "point",
+		"name": "1#微电网负荷",
+		"pt": "dp_5c932efde5798800013a39de_0:3"
+	}, {
+		"category": "Text",
+		"stroke": "#2196F3",
+		"text": "1#接入点",
+		"key": -61,
+		"pos": "-239.0800018310547 -50",
+		"textName": "2号字体",
+		"font": "bold 32px sans-serif"
+	}, {
+		"category": "Text",
+		"stroke": "#2196F3",
+		"text": "光伏",
+		"key": -62,
+		"pos": "-600 370",
+		"textName": "2号字体",
+		"font": "bold 32px sans-serif"
+	}, {
+		"category": "Text",
+		"stroke": "#2196F3",
+		"text": "储能",
+		"key": -63,
+		"pos": "-400 370",
+		"textName": "2号字体",
+		"font": "bold 32px sans-serif"
+	}, {
+		"category": "Text",
+		"stroke": "#2196F3",
+		"text": "负荷",
+		"key": -64,
+		"pos": "-200 370",
+		"textName": "2号字体",
+		"font": "bold 32px sans-serif"
+	}, {
+		"category": "Text",
+		"stroke": "#F44336",
+		"text": "有功",
+		"key": -65,
+		"pos": "-681 420",
+		"textName": "3号字体",
+		"font": "bold 24px sans-serif"
+	}, {
+		"category": "Number",
+		"stroke": "#F44336",
+		"text": 0,
+		"key": -66,
+		"pos": "-600 420",
+		"textName": "3号字体",
+		"font": "bold 24px sans-serif",
+		"tag": "point",
+		"name": "1#微电网光伏发电",
+		"pt": "dp_5c932efde5798800013a39de_0:1"
+	}, {
+		"category": "Text",
+		"stroke": "#F44336",
+		"text": "kW",
+		"key": -67,
+		"pos": "-520 420",
+		"textName": "3号字体",
+		"font": "bold 24px sans-serif"
+	}, {
+		"category": "Text",
+		"stroke": "#F44336",
+		"text": "kW",
+		"key": -68,
+		"pos": "-320 420",
+		"textName": "3号字体",
+		"font": "bold 24px sans-serif"
+	}, {
+		"category": "Number",
+		"stroke": "#F44336",
+		"text": 0,
+		"key": -69,
+		"pos": "-400 420",
+		"textName": "3号字体",
+		"font": "bold 24px sans-serif",
+		"tag": "point",
+		"name": "试制中心-PCS_交流侧有功功率",
+		"pt": "dc_5c467c901c18100001f120bb_37:731"
+	}, {
+		"category": "Text",
+		"stroke": "#F44336",
+		"text": "kW",
+		"key": -71,
+		"pos": "-120 420",
+		"textName": "3号字体",
+		"font": "bold 24px sans-serif"
+	}, {
+		"category": "Number",
+		"stroke": "#F44336",
+		"text": 0,
+		"key": -72,
+		"pos": "-212.8000030517578 420",
+		"textName": "3号字体",
+		"font": "bold 24px sans-serif",
+		"tag": "point",
+		"name": "1#微电网负荷",
+		"pt": "dp_5c932efde5798800013a39de_0:3"
+	}, {
+		"category": "Text",
+		"stroke": "#F44336",
+		"text": "有功",
+		"key": -74,
+		"pos": "-330 0",
+		"textName": "3号字体",
+		"font": "bold 24px sans-serif"
+	}, {
+		"category": "Text",
+		"stroke": "#F44336",
+		"text": "kW",
+		"key": -76,
+		"pos": "-168.42800903320312 -1.7763568394002505e-15",
+		"textName": "3号字体",
+		"font": "bold 24px sans-serif"
+	}, {
+		"category": "Connect",
+		"key": -77,
+		"pos": "580 100"
+	}, {
+		"category": "Connect",
+		"key": -78,
+		"pos": "220 100"
+	}, {
+		"category": "Connect",
+		"key": -79,
+		"pos": "400 100"
+	}, {
+		"category": "Text",
+		"stroke": "#F44336",
+		"text": "kW",
+		"key": -80,
+		"pos": "270.0719909667969 0",
+		"textName": "3号字体",
+		"font": "bold 24px sans-serif"
+	}, {
+		"category": "Text",
+		"stroke": "#F44336",
+		"text": "有功",
+		"key": -82,
+		"pos": "70 0",
+		"textName": "3号字体",
+		"font": "bold 24px sans-serif"
+	}, {
+		"category": "Number",
+		"stroke": "#F44336",
+		"text": 0,
+		"key": -84,
+		"pos": "590 420",
+		"textName": "3号字体",
+		"font": "bold 24px sans-serif",
+		"tag": "point",
+		"name": "2#微电网负荷",
+		"pt": "dp_5c932efde5798800013a39de_0:4"
+	}, {
+		"category": "Text",
+		"stroke": "#F44336",
+		"text": "kW",
+		"key": -85,
+		"pos": "660 420",
+		"textName": "3号字体",
+		"font": "bold 24px sans-serif"
+	}, {
+		"category": "Number",
+		"stroke": "#F44336",
+		"text": 0,
+		"key": -87,
+		"pos": "400 420",
+		"textName": "3号字体",
+		"font": "bold 24px sans-serif",
+		"tag": "point",
+		"name": "DC-DC_DC-低压端功率",
+		"pt": "dc_5c467d651c18100001f120be_35:11"
+	}, {
+		"category": "Text",
+		"stroke": "#F44336",
+		"text": "kW",
+		"key": -88,
+		"pos": "490 420",
+		"textName": "3号字体",
+		"font": "bold 24px sans-serif"
+	}, {
+		"category": "Text",
+		"stroke": "#F44336",
+		"text": "kW",
+		"key": -89,
+		"pos": "310 420",
+		"textName": "3号字体",
+		"font": "bold 24px sans-serif"
+	}, {
+		"category": "Number",
+		"stroke": "#F44336",
+		"text": 0,
+		"key": -90,
+		"pos": "230 420",
+		"textName": "3号字体",
+		"font": "bold 24px sans-serif",
+		"tag": "point",
+		"name": "2#微电网光伏发电",
+		"pt": "dp_5c932efde5798800013a39de_0:2"
+	}, {
+		"category": "Text",
+		"stroke": "#2196F3",
+		"text": "负荷",
+		"key": -92,
+		"pos": "580 370",
+		"textName": "2号字体",
+		"font": "bold 32px sans-serif"
+	}, {
+		"category": "Text",
+		"stroke": "#2196F3",
+		"text": "储能+光伏",
+		"key": -93,
+		"pos": "400 370",
+		"textName": "2号字体",
+		"font": "bold 32px sans-serif"
+	}, {
+		"category": "Text",
+		"stroke": "#2196F3",
+		"text": "光伏",
+		"key": -94,
+		"pos": "220 370",
+		"textName": "2号字体",
+		"font": "bold 32px sans-serif"
+	}, {
+		"category": "Text",
+		"stroke": "#2196F3",
+		"text": "2#接入点",
+		"key": -95,
+		"pos": "200.10000610351562 -50",
+		"textName": "2号字体",
+		"font": "bold 32px sans-serif"
+	}, {
+		"category": "Model",
+		"icon": "tongyongshebei",
+		"svgSize": 55,
+		"iconSize": 60,
+		"runColor": "#F44336",
+		"stopColor": "#9E9E9E",
+		"key": -96,
+		"pos": "580 300",
+		"tag": "point",
+		"name": "2#微电网负荷",
+		"pt": "dp_5c932efde5798800013a39de_0:4"
+	}, {
+		"category": "Model",
+		"icon": "bianyaqi",
+		"svgSize": 55,
+		"iconSize": 60,
+		"runColor": "#F44336",
+		"stopColor": "#9E9E9E",
+		"key": -97,
+		"pos": "400 -60",
+		"tag": "point",
+		"name": "综合站房PLC_综合站房网关柜下口P",
+		"pt": "dc_5c467d651c18100001f120be_34:807"
+	}, {
+		"category": "Model",
+		"icon": "guangfu",
+		"svgSize": 55,
+		"iconSize": 60,
+		"runColor": "#F44336",
+		"stopColor": "#9E9E9E",
+		"key": -99,
+		"pos": "220 300",
+		"tag": "point",
+		"name": "2#微电网光伏发电",
+		"pt": "dp_5c932efde5798800013a39de_0:2"
+	}, {
+		"category": "Text",
+		"stroke": "#2196F3",
+		"text": "风机",
+		"key": -100,
+		"pos": "50 370",
+		"textName": "2号字体",
+		"font": "bold 32px sans-serif"
+	}, {
+		"category": "Number",
+		"stroke": "#F44336",
+		"text": 0,
+		"key": -102,
+		"pos": "50 420",
+		"textName": "3号字体",
+		"font": "bold 24px sans-serif",
+		"tag": "point",
+		"name": "风机发电总功率",
+		"pt": "dp_5c484b8a59fa520001054cca_0:1"
+	}, {
+		"category": "Text",
+		"stroke": "#F44336",
+		"text": "kW",
+		"key": -103,
+		"pos": "130 420",
+		"textName": "3号字体",
+		"font": "bold 24px sans-serif"
+	}, {
+		"category": "Connect",
+		"key": -107,
+		"pos": "400 -200"
+	}, {
+		"category": "Connect",
+		"key": -108,
+		"pos": "-400 -200"
+	}, {
+		"category": "Area",
+		"key": -109,
+		"pos": "-15.159996032714844 -249",
+		"width": 1380,
+		"height": 200,
+		"strokeWidth": 5,
+		"stroke": "#000000"
+	}, {
+		"category": "Click",
+		"color": "transparent",
+		"width": 60,
+		"height": 60,
+		"key": -110,
+		"pos": "-600 300",
+		"tag": "jump",
+		"name": "1#微电网光伏阵列",
+		"pt": "5c91f3dce5798800013a3669",
+		"path": "graph",
+		"label": {
+			"subheader": "状态监控",
+			"icon": "wallpaper",
+			"iconClass": " white--text",
+			"title": "监控画面",
+			"tab": 5,
+			"path": "graph",
+			"width": ["1920", "1920", "1920"]
+		}
+	}, {
+		"category": "Click",
+		"color": "transparent",
+		"width": 60,
+		"height": 60,
+		"key": -111,
+		"pos": "220 300",
+		"tag": "jump",
+		"name": "2#微电网光伏阵列",
+		"pt": "5c91f3ece5798800013a366b",
+		"path": "graph",
+		"label": {
+			"subheader": "状态监控",
+			"icon": "wallpaper",
+			"iconClass": " white--text",
+			"title": "监控画面",
+			"tab": 5,
+			"path": "graph",
+			"width": ["1920", "1920", "1920"]
+		}
+	}, {
+		"category": "Click",
+		"color": "transparent",
+		"width": 60,
+		"height": 60,
+		"key": -112,
+		"pos": "50 300",
+		"tag": "jump",
+		"name": "风机系统总图",
+		"pt": "5ca1cafd43898700010e9a2c",
+		"path": "graph",
+		"label": {
+			"subheader": "状态监控",
+			"icon": "wallpaper",
+			"iconClass": " white--text",
+			"title": "监控画面",
+			"tab": 5,
+			"path": "graph",
+			"width": ["1920", "1920", "1920"]
+		}
+	}, {
+		"category": "Text",
+		"stroke": "#F44336",
+		"text": "有功",
+		"key": -113,
+		"pos": "-15.159996032714844 420",
+		"textName": "3号字体",
+		"font": "bold 24px sans-serif"
+	}, {
+		"category": "Number",
+		"stroke": "#F44336",
+		"text": 0,
+		"key": -163,
+		"pos": "-239.0800018310547 -2.3092638912203256e-14",
+		"tag": "point",
+		"name": "1#厂房PLC_1#网关柜下口-P",
+		"pt": "dc_5c467c901c18100001f120bb_38:765",
+		"textName": "3号字体",
+		"font": "bold 24px sans-serif"
+	}, {
+		"category": "Number",
+		"stroke": "#F44336",
+		"text": 0,
+		"key": -179,
+		"pos": "200.10000610351562 0",
+		"tag": "point",
+		"name": "综合站房PLC_综合站房网关柜下口P",
+		"pt": "dc_5c467d651c18100001f120be_34:807",
+		"textName": "3号字体",
+		"font": "bold 24px sans-serif"
+	}, {
+		"category": "Model",
+		"icon": "nibianqi",
+		"svgSize": 55,
+		"iconSize": 60,
+		"runColor": "#F44336",
+		"stopColor": "#F44336",
+		"key": -114,
+		"pos": "400 300",
+		"tag": "point",
+		"name": "综合站房PCS_交流侧有功功率",
+		"pt": "dc_5c467d651c18100001f120be_33:773"
+	}, {
+		"category": "Text",
+		"stroke": "#4CAF50",
+		"text": "发电量统计",
+		"key": -101,
+		"pos": "890 0",
+		"textName": "2号字体",
+		"font": "bold 32px sans-serif"
+	}, {
+		"category": "Number",
+		"stroke": "#000000",
+		"text": 0,
+		"key": -104,
+		"pos": "920 200",
+		"textName": "2号字体",
+		"font": "bold 32px sans-serif",
+		"tag": "point",
+		"name": "逆变器总发电量",
+		"pt": "dp_5c46c6d65170d70001a22fe5_0:1"
+	}, {
+		"category": "Text",
+		"stroke": "#2196F3",
+		"text": "kWh",
+		"key": -115,
+		"pos": "1030 200",
+		"textName": "3号字体",
+		"font": "bold 24px sans-serif"
+	}, {
+		"category": "Text",
+		"stroke": "#2196F3",
+		"text": "总发电量",
+		"key": -116,
+		"pos": "780 200",
+		"textName": "3号字体",
+		"font": "bold 24px sans-serif"
+	}, {
+		"category": "Text",
+		"stroke": "#2196F3",
+		"text": "月发电量",
+		"key": -117,
+		"pos": "780 130",
+		"textName": "3号字体",
+		"font": "bold 24px sans-serif"
+	}, {
+		"category": "Text",
+		"stroke": "#2196F3",
+		"text": "kWh",
+		"key": -118,
+		"pos": "1030 130",
+		"textName": "3号字体",
+		"font": "bold 24px sans-serif"
+	}, {
+		"category": "Number",
+		"stroke": "#000000",
+		"text": 0,
+		"key": -119,
+		"pos": "920 130",
+		"textName": "2号字体",
+		"font": "bold 32px sans-serif",
+		"tag": "point",
+		"name": "逆变器月发电量",
+		"pt": "dp_5c47ef357e2f240001d50a77_0:2"
+	}, {
+		"category": "Number",
+		"stroke": "#000000",
+		"text": 0,
+		"key": -120,
+		"pos": "920 60",
+		"textName": "2号字体",
+		"font": "bold 32px sans-serif",
+		"tag": "point",
+		"name": "逆变器日发电量",
+		"pt": "dp_5c47ef357e2f240001d50a77_0:1"
+	}, {
+		"category": "Text",
+		"stroke": "#2196F3",
+		"text": "kWh",
+		"key": -121,
+		"pos": "1030 60",
+		"textName": "3号字体",
+		"font": "bold 24px sans-serif"
+	}, {
+		"category": "Text",
+		"stroke": "#2196F3",
+		"text": "日发电量",
+		"key": -122,
+		"pos": "780 60",
+		"textName": "3号字体",
+		"font": "bold 24px sans-serif"
+	}, {
+		"category": "Text",
+		"stroke": "#4CAF50",
+		"text": "节能减排",
+		"key": -123,
+		"pos": "890 280",
+		"textName": "2号字体",
+		"font": "bold 32px sans-serif"
+	}, {
+		"category": "Text",
+		"stroke": "#2196F3",
+		"text": "标准煤",
+		"key": -124,
+		"pos": "780 340",
+		"textName": "3号字体",
+		"font": "bold 24px sans-serif"
+	}, {
+		"category": "Text",
+		"stroke": "#2196F3",
+		"text": "吨",
+		"key": -125,
+		"pos": "1030 340",
+		"textName": "3号字体",
+		"font": "bold 24px sans-serif"
+	}, {
+		"category": "Number",
+		"stroke": "#000000",
+		"text": 0,
+		"key": -126,
+		"pos": "920 340",
+		"textName": "2号字体",
+		"font": "bold 32px sans-serif",
+		"tag": "point",
+		"name": "标准煤",
+		"pt": "dp_5c46c6d65170d70001a22fe5_0:2"
+	}, {
+		"category": "Number",
+		"stroke": "#000000",
+		"text": 0,
+		"key": -127,
+		"pos": "920 460",
+		"textName": "2号字体",
+		"font": "bold 32px sans-serif",
+		"tag": "point",
+		"name": "SO2",
+		"pt": "dp_5c46c6d65170d70001a22fe5_0:4"
+	}, {
+		"category": "Text",
+		"stroke": "#2196F3",
+		"text": "千克",
+		"key": -128,
+		"pos": "1030 460",
+		"textName": "3号字体",
+		"font": "bold 24px sans-serif"
+	}, {
+		"category": "Text",
+		"stroke": "#2196F3",
+		"text": "SO2",
+		"key": -129,
+		"pos": "770 460",
+		"textName": "3号字体",
+		"font": "bold 24px sans-serif"
+	}, {
+		"category": "Text",
+		"stroke": "#2196F3",
+		"text": "NOx",
+		"key": -130,
+		"pos": "770 520",
+		"textName": "3号字体",
+		"font": "bold 24px sans-serif"
+	}, {
+		"category": "Text",
+		"stroke": "#2196F3",
+		"text": "千克",
+		"key": -131,
+		"pos": "1030 520",
+		"textName": "3号字体",
+		"font": "bold 24px sans-serif"
+	}, {
+		"category": "Number",
+		"stroke": "#000000",
+		"text": 0,
+		"key": -132,
+		"pos": "920 520",
+		"textName": "2号字体",
+		"font": "bold 32px sans-serif",
+		"tag": "point",
+		"name": "NOx",
+		"pt": "dp_5c46c6d65170d70001a22fe5_0:5"
+	}, {
+		"category": "Number",
+		"stroke": "#000000",
+		"text": 0,
+		"key": -133,
+		"pos": "920 400",
+		"textName": "2号字体",
+		"font": "bold 32px sans-serif",
+		"tag": "point",
+		"name": "CO2",
+		"pt": "dp_5c46c6d65170d70001a22fe5_0:6"
+	}, {
+		"category": "Text",
+		"stroke": "#2196F3",
+		"text": "吨",
+		"key": -134,
+		"pos": "1030 400",
+		"textName": "3号字体",
+		"font": "bold 24px sans-serif"
+	}, {
+		"category": "Text",
+		"stroke": "#2196F3",
+		"text": "CO2",
+		"key": -135,
+		"pos": "770 400",
+		"textName": "3号字体",
+		"font": "bold 24px sans-serif"
+	}, {
+		"category": "Text",
+		"stroke": "#2196F3",
+		"text": "市电进线",
+		"key": -136,
+		"pos": "146 -290",
+		"textName": "2号字体",
+		"font": "bold 32px sans-serif"
+	}, {
+		"category": "Connect",
+		"key": -137,
+		"pos": "-70 -200"
+	}, {
+		"category": "Click",
+		"color": "transparent",
+		"width": 170,
+		"height": 60,
+		"key": -138,
+		"pos": "-850 70.00000000000001",
+		"tag": "jump",
+		"name": "光伏关键数据",
+		"pt": "5c9db18ce5798800013a9253",
+		"path": "dashboard",
+		"label": {
+			"subheader": "数据运维",
+			"icon": "pie_chart_outlined",
+			"iconClass": " white--text",
+			"title": "关键指标",
+			"tab": 2,
+			"path": "dashboard",
+			"width": ["420", "960", "1920"]
+		}
+	}, {
+		"category": "Text",
+		"stroke": "#4CAF50",
+		"text": "发电棒图",
+		"key": -139,
+		"pos": "-850 70",
+		"textName": "2号字体",
+		"font": "bold 32px sans-serif"
+	}, {
+		"category": "Number",
+		"stroke": "#F44336",
+		"text": 0,
+		"key": -140,
+		"pos": "146 -240",
+		"tag": "point",
+		"name": "大电网交换功率",
+		"pt": "dp_5c932efde5798800013a39de_0:5",
+		"textName": "3号字体",
+		"font": "bold 24px sans-serif"
+	}, {
+		"category": "Text",
+		"stroke": "#F44336",
+		"text": "有功",
+		"key": -141,
+		"pos": "20 -240",
+		"textName": "3号字体",
+		"font": "bold 24px sans-serif"
+	}, {
+		"category": "Text",
+		"stroke": "#F44336",
+		"text": "kW",
+		"key": -142,
+		"pos": "220 -240",
+		"textName": "3号字体",
+		"font": "bold 24px sans-serif"
+	}, {
+		"category": "Model",
+		"icon": "dianta",
+		"svgSize": 75,
+		"iconSize": 80,
+		"runColor": "#F44336",
+		"stopColor": "#9E9E9E",
+		"key": -105,
+		"pos": "-70 -280",
+		"tag": "point",
+		"name": "大电网交换功率",
+		"pt": "dp_5c932efde5798800013a39de_0:5"
+	}, {
+		"category": "Click",
+		"color": "transparent",
+		"width": 60,
+		"height": 60,
+		"key": -143,
+		"pos": "-400 300",
+		"tag": "device",
+		"name": "试制中心-PCS",
+		"pt": "5c46eadb19d7f500019740e1"
+	}, {
+		"category": "Click",
+		"color": "transparent",
+		"width": 60,
+		"height": 60,
+		"key": -144,
+		"pos": "400.5 300",
+		"tag": "device",
+		"name": "DC-DC",
+		"pt": "5c46eaea19d7f50001974115"
+	}, {
+		"category": "Click",
+		"color": "transparent",
+		"width": 170,
+		"height": 60,
+		"key": -145,
+		"pos": "-850 140",
+		"tag": "jump",
+		"name": "微电网调度计划",
+		"pt": "5c933f81e5798800013a3a2c",
+		"path": "optimize",
+		"label": {
+			"subheader": "自动运行",
+			"icon": "data_usage",
+			"iconClass": "primary white--text",
+			"title": "调度计划",
+			"tab": 7,
+			"path": "optimize",
+			"width": ["420", "960", "2560"]
+		}
+	}, {
+		"category": "Text",
+		"stroke": "#4CAF50",
+		"text": "调度计划",
+		"key": -146,
+		"pos": "-850 140",
+		"textName": "2号字体",
+		"font": "bold 32px sans-serif"
+	}],
+	"linkDataArray": [{
+		"from": -56,
+		"to": -55,
+		"fromPort": "B",
+		"toPort": "T",
+		"points": [-400, -20, -400, -10, -400, 37.936, -400, 37.936, -400, 85.872, -400, 95.872],
+		"strokeWidth": 12,
+		"color": "#F44336",
+		"name": "1#厂房PLC_1#网关柜下口-P",
+		"pt": "dc_5c467c901c18100001f120bb_38:765"
+	}, {
+		"from": -57,
+		"to": -51,
+		"fromPort": "B",
+		"toPort": "T",
+		"points": [-600, 104.128, -600, 114.128, -600, 114.128, -600, 114.128, -600, 260, -600, 270],
+		"strokeWidth": 12,
+		"color": "#F44336",
+		"name": "1#微电网光伏发电",
+		"pt": "dp_5c932efde5798800013a39de_0:1"
+	}, {
+		"from": -55,
+		"to": -57,
+		"fromPort": "L",
+		"toPort": "R",
+		"points": [-404.128, 100, -414.128, 100, -414.128, 100, -414.128, 100, -585.872, 100, -595.872, 100],
+		"strokeWidth": 12,
+		"color": "#F44336",
+		"name": "1#微电网光伏发电",
+		"pt": "dp_5c932efde5798800013a39de_0:1"
+	}, {
+		"from": -55,
+		"to": -60,
+		"fromPort": "R",
+		"toPort": "L",
+		"points": [-395.872, 100, -385.872, 100, -300, 100, -300, 100, -214.128, 100, -204.128, 100],
+		"strokeWidth": 12,
+		"color": "#F44336",
+		"name": "1#微电网负荷",
+		"pt": "dp_5c932efde5798800013a39de_0:3"
+	}, {
+		"from": -60,
+		"to": -59,
+		"fromPort": "B",
+		"toPort": "T",
+		"points": [-200, 104.128, -200, 114.128, -200, 187.064, -200, 187.064, -200, 260, -200, 270],
+		"strokeWidth": 12,
+		"color": "#F44336",
+		"name": "1#微电网负荷",
+		"pt": "dp_5c932efde5798800013a39de_0:3"
+	}, {
+		"from": -55,
+		"to": -53,
+		"fromPort": "B",
+		"toPort": "T",
+		"points": [-400, 104.128, -400, 114.128, -400, 114.128, -400, 114.128, -400, 260, -400, 270],
+		"strokeWidth": 12,
+		"color": "#F44336",
+		"name": "试制中心-PCS_交流侧有功功率",
+		"pt": "dc_5c467c901c18100001f120bb_37:731"
+	}, {
+		"from": -79,
+		"to": -78,
+		"fromPort": "L",
+		"toPort": "R",
+		"points": [395.872, 100, 385.872, 100, 385.872, 100, 385.872, 100, 234.128, 100, 224.128, 100],
+		"strokeWidth": 12,
+		"color": "#F44336",
+		"name": "2#微电网风机与光伏潮流",
+		"pt": "dp_5c932efde5798800013a39de_0:6"
+	}, {
+		"from": -79,
+		"to": -77,
+		"fromPort": "R",
+		"toPort": "L",
+		"points": [404.128, 100, 414.128, 100, 490, 100, 490, 100, 565.872, 100, 575.872, 100],
+		"strokeWidth": 12,
+		"color": "#F44336",
+		"name": "2#微电网负荷",
+		"pt": "dp_5c932efde5798800013a39de_0:4"
+	}, {
+		"from": -79,
+		"to": -114,
+		"fromPort": "B",
+		"toPort": "T",
+		"points": [400, 104.128, 400, 114.128, 400, 114.128, 400, 114.128, 400, 260, 400, 270],
+		"strokeWidth": 12,
+		"color": "#F44336",
+		"name": "DC-DC_DC-低压端功率",
+		"pt": "dc_5c467d651c18100001f120be_35:11"
+	}, {
+		"from": -77,
+		"to": -96,
+		"fromPort": "B",
+		"toPort": "T",
+		"points": [580, 104.128, 580, 114.128, 580, 187.064, 580, 187.064, 580, 260, 580, 270],
+		"strokeWidth": 12,
+		"color": "#F44336",
+		"name": "2#微电网负荷",
+		"pt": "dp_5c932efde5798800013a39de_0:4"
+	}, {
+		"from": -78,
+		"to": -99,
+		"fromPort": "B",
+		"toPort": "T",
+		"points": [220, 104.128, 220, 114.128, 220, 114.128, 220, 114.128, 220, 260, 220, 270],
+		"strokeWidth": 12,
+		"color": "#F44336",
+		"name": "2#微电网光伏发电",
+		"pt": "dp_5c932efde5798800013a39de_0:2"
+	}, {
+		"from": -97,
+		"to": -79,
+		"fromPort": "B",
+		"toPort": "T",
+		"points": [400, -30, 400, -20, 400, 32.936, 400, 32.936, 400, 85.872, 400, 95.872],
+		"strokeWidth": 12,
+		"color": "#F44336",
+		"name": "综合站房PLC_综合站房网关柜下口P",
+		"pt": "dc_5c467d651c18100001f120be_34:807"
+	}, {
+		"from": -78,
+		"to": -58,
+		"fromPort": "L",
+		"toPort": "R",
+		"points": [215.872, 100, 205.872, 100, 205.872, 100, 205.872, 100, 64.128, 100, 54.128, 100],
+		"strokeWidth": 12,
+		"color": "#F44336",
+		"name": "风机发电总功率",
+		"pt": "dp_5c484b8a59fa520001054cca_0:1"
+	}, {
+		"from": -58,
+		"to": -54,
+		"fromPort": "B",
+		"toPort": "T",
+		"points": [50, 104.128, 50, 114.128, 50, 114.128, 50, 114.128, 50, 260, 50, 270],
+		"strokeWidth": 12,
+		"color": "#F44336",
+		"name": "风机发电总功率",
+		"pt": "dp_5c484b8a59fa520001054cca_0:1"
+	}, {
+		"from": -107,
+		"to": -97,
+		"fromPort": "B",
+		"toPort": "T",
+		"points": [400, -195.872, 400, -185.872, 400, -142.936, 400, -142.936, 400, -100, 400, -90],
+		"strokeWidth": 12,
+		"color": "#F44336",
+		"name": "综合站房PLC_综合站房网关柜下口P",
+		"pt": "dc_5c467d651c18100001f120be_34:807"
+	}, {
+		"from": -108,
+		"to": -56,
+		"fromPort": "B",
+		"toPort": "T",
+		"points": [-400, -195.872, -400, -185.872, -400, -137.936, -400, -137.936, -400, -90, -400, -80],
+		"strokeWidth": 12,
+		"color": "#F44336",
+		"name": "1#厂房PLC_1#网关柜下口-P",
+		"pt": "dc_5c467c901c18100001f120bb_38:765"
+	}, {
+		"from": -137,
+		"to": -107,
+		"fromPort": "R",
+		"toPort": "L",
+		"points": [-65.872, -200, -55.872, -200, 165, -200, 165, -200, 385.872, -200, 395.872, -200],
+		"strokeWidth": 12,
+		"color": "#F44336",
+		"name": "综合站房PLC_综合站房网关柜下口P",
+		"pt": "dc_5c467d651c18100001f120be_34:807"
+	}, {
+		"from": -137,
+		"to": -108,
+		"fromPort": "L",
+		"toPort": "R",
+		"points": [-74.128, -200, -84.128, -200, -235, -200, -235, -200, -385.872, -200, -395.872, -200],
+		"strokeWidth": 12,
+		"color": "#F44336",
+		"name": "1#厂房PLC_1#网关柜下口-P",
+		"pt": "dc_5c467c901c18100001f120bb_38:765"
+	}, {
+		"from": -105,
+		"to": -137,
+		"fromPort": "B",
+		"toPort": "T",
+		"points": [-70, -240, -70, -230, -70, -222.064, -70, -222.064, -70, -214.128, -70, -204.128],
+		"strokeWidth": 12,
+		"color": "#F44336",
+		"name": "大电网交换功率",
+		"pt": "dp_5c932efde5798800013a39de_0:5"
+	}]
+}

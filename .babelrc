@@ -1,0 +1,14 @@
+{
+    "presets": [
+        [
+            "@babel/preset-env",
+            {
+                "useBuiltIns": "entry"
+            }
+        ]
+    ],
+    "plugins": [
+        // "dynamic-import-webpack",
+        "syntax-dynamic-import" // import动态引入
+    ]
+}

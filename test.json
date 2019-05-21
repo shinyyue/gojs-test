@@ -1,0 +1,2158 @@
+{
+    "class": "go.GraphLinksModel",
+    "linkFromPortIdProperty": "fromPort",
+    "linkToPortIdProperty": "toPort",
+    "modelData": {
+        "position": "-647.0931046960172 -339.4314310049292"
+    },
+    "nodeDataArray": [{
+        "category": "Area",
+        "key": -5,
+        "pos": "50 50",
+        "strokeWidth": {
+            "class": "NaN"
+        },
+        "width": 2100,
+        "height": 1100,
+        "stroke": "#9E9E9E"
+    }, {
+        "category": "Area",
+        "key": -2,
+        "pos": "50 -425",
+        "width": 2040,
+        "height": 90,
+        "strokeWidth": 5,
+        "stroke": "#000000"
+    }, {
+        "category": "Area",
+        "key": -4,
+        "pos": "-850 110",
+        "width": 240,
+        "height": 920,
+        "strokeWidth": 5,
+        "stroke": "#000000"
+    }, {
+        "category": "Text",
+        "stroke": "#9E9E9E",
+        "text": "统计信息",
+        "key": -9,
+        "pos": "-850 -280",
+        "textName": "2号字体",
+        "font": "bold 32px sans-serif"
+    }, {
+        "category": "Text",
+        "stroke": "#FF9800",
+        "text": "电量报表",
+        "key": -14,
+        "pos": "-850 -130",
+        "textName": "2号字体",
+        "font": "bold 32px sans-serif"
+    }, {
+        "category": "Click",
+        "color": "transparent",
+        "width": 170,
+        "height": 60,
+        "key": -15,
+        "pos": "-850 -130",
+        "tag": "jump",
+        "name": "1#微电网新能源发电报表",
+        "pt": "5c91f882e5798800013a36bc",
+        "path": "report",
+        "label": {
+            "icon": "border_outer",
+            "iconClass": " white--text",
+            "title": "报表统计",
+            "tab": 4,
+            "path": "report",
+            "width": ["960", "960", "1920"]
+        }
+    }, {
+        "category": "Click",
+        "color": "transparent",
+        "width": 170,
+        "height": 60,
+        "key": -16,
+        "pos": "-850 -30",
+        "tag": "jump",
+        "name": "1#微电网调度计划",
+        "pt": "5c933f81e5798800013a3a2c",
+        "path": "optimize",
+        "label": {
+            "subheader": "自动运行",
+            "icon": "data_usage",
+            "iconClass": "primary white--text",
+            "title": "调度计划",
+            "tab": 7,
+            "path": "optimize",
+            "width": ["420", "640", "1920"]
+        }
+    }, {
+        "category": "Text",
+        "stroke": "#FF9800",
+        "text": "调度策略",
+        "key": -17,
+        "pos": "-850 -30",
+        "textName": "2号字体",
+        "font": "bold 32px sans-serif"
+    }, {
+        "category": "Click",
+        "color": "transparent",
+        "width": 170,
+        "height": 60,
+        "key": -18,
+        "pos": "-850 70",
+        "tag": "jump",
+        "name": "1#微电网光伏发电功率",
+        "pt": "5c9352a3e5798800013a3a65",
+        "path": "history",
+        "label": {
+            "icon": "multiline_chart",
+            "iconClass": " white--text",
+            "title": "运行曲线",
+            "tab": 3,
+            "path": "history",
+            "width": ["640", "640", "1920"]
+        }
+    }, {
+        "category": "Text",
+        "stroke": "#FF9800",
+        "text": "运行曲线",
+        "key": -19,
+        "pos": "-850 70",
+        "textName": "2号字体",
+        "font": "bold 32px sans-serif"
+    }, {
+        "category": "Text",
+        "stroke": "#FF9800",
+        "text": "1#微电网总图",
+        "key": -49,
+        "pos": "0 -425",
+        "textName": "1号字体",
+        "font": "bold 40px sans-serif"
+    }, {
+        "category": "Area",
+        "key": -109,
+        "pos": "185 110",
+        "width": 1770,
+        "height": 920,
+        "strokeWidth": 5,
+        "stroke": "#000000"
+    }, {
+        "category": "Connect",
+        "key": -319,
+        "pos": "350 -100"
+    }, {
+        "category": "Connect",
+        "key": -328,
+        "pos": "750 -190"
+    }, {
+        "category": "Click",
+        "color": "transparent",
+        "width": 40,
+        "height": 40,
+        "key": -325,
+        "pos": "450 30",
+        "tag": "point",
+        "name": "1#厂房PLC_试制中心并网柜回路2开关",
+        "pt": "dk_5c467c901c18100001f120bb_38:37"
+    }, {
+        "category": "Click",
+        "color": "transparent",
+        "width": 40,
+        "height": 40,
+        "key": -324,
+        "pos": "-150 -20",
+        "tag": "device",
+        "name": "1#厂房电梯-多功能表",
+        "pt": "5c46eadb19d7f500019740a9"
+    }, {
+        "category": "Click",
+        "color": "transparent",
+        "width": 40,
+        "height": 40,
+        "key": -343,
+        "pos": "650 100",
+        "tag": "device",
+        "name": "试制中心空压机-多功能表",
+        "pt": "5c46eadb19d7f500019740af"
+    }, {
+        "category": "Click",
+        "color": "transparent",
+        "width": 40,
+        "height": 40,
+        "key": -342,
+        "pos": "750 100",
+        "tag": "device",
+        "name": "试制中心电梯-多功能表",
+        "pt": "5c46eadb19d7f500019740b1"
+    }, {
+        "category": "Click",
+        "color": "transparent",
+        "width": 40,
+        "height": 40,
+        "key": -333,
+        "pos": "-350 250",
+        "tag": "device",
+        "name": "2#厂房电梯-多功能表",
+        "pt": "5c46eadb19d7f500019740e3"
+    }, {
+        "category": "Click",
+        "color": "transparent",
+        "width": 40,
+        "height": 40,
+        "key": -332,
+        "pos": "-250 250",
+        "tag": "device",
+        "name": "泵房-多功能表",
+        "pt": "5c46eadb19d7f500019740d9"
+    }, {
+        "category": "Click",
+        "color": "transparent",
+        "width": 40,
+        "height": 40,
+        "key": -331,
+        "pos": "-150 250",
+        "tag": "device",
+        "name": "2#厂房空压机-多功能表",
+        "pt": "5c46eadb19d7f500019740e5"
+    }, {
+        "category": "Click",
+        "color": "transparent",
+        "width": 40,
+        "height": 40,
+        "key": -330,
+        "pos": "-50 250",
+        "tag": "device",
+        "name": "门卫-多功能表",
+        "pt": "5c46eadb19d7f500019740c1"
+    }, {
+        "category": "Click",
+        "color": "transparent",
+        "width": 40,
+        "height": 40,
+        "key": -329,
+        "pos": "50 250.00000000000003",
+        "tag": "device",
+        "name": "配电箱-多功能表",
+        "pt": "5c46eadb19d7f500019740ad"
+    }, {
+        "category": "Click",
+        "color": "transparent",
+        "width": 40,
+        "height": 40,
+        "key": -323,
+        "pos": "-250 -20",
+        "tag": "device",
+        "name": "1#厂房空压机-多功能表",
+        "pt": "5c46eadb19d7f500019740c9"
+    }, {
+        "category": "Click",
+        "color": "transparent",
+        "width": 40,
+        "height": 40,
+        "key": -322,
+        "pos": "-350 -20",
+        "tag": "device",
+        "name": "综合楼-多功能表",
+        "pt": "5c46eadb19d7f500019740d7"
+    }, {
+        "category": "Connect",
+        "key": -311,
+        "pos": "-450 110"
+    }, {
+        "category": "Connect",
+        "key": -310,
+        "pos": "-450 -190"
+    }, {
+        "category": "Click",
+        "color": "transparent",
+        "width": 40,
+        "height": 40,
+        "key": -259,
+        "pos": "150 -240",
+        "tag": "point",
+        "name": "1#厂房PLC_1#网关柜开关",
+        "pt": "dk_5c467c901c18100001f120bb_38:32"
+    }, {
+        "category": "Click",
+        "color": "transparent",
+        "width": 40,
+        "height": 40,
+        "key": -258,
+        "pos": "-150 -90",
+        "tag": "point",
+        "name": "1#厂房PLC_1#厂配电柜回路3开关",
+        "pt": "dk_5c467c901c18100001f120bb_38:35"
+    }, {
+        "category": "Click",
+        "color": "transparent",
+        "width": 40,
+        "height": 40,
+        "key": -257,
+        "pos": "-250 -90",
+        "tag": "point",
+        "name": "1#厂房PLC_1#厂配电柜回路2开关",
+        "pt": "dk_5c467c901c18100001f120bb_38:34"
+    }, {
+        "category": "Click",
+        "color": "transparent",
+        "width": 40,
+        "height": 40,
+        "key": -256,
+        "pos": "-350 -90",
+        "tag": "point",
+        "name": "1#厂房PLC_1#厂配电柜回路1开关",
+        "pt": "dk_5c467c901c18100001f120bb_38:33"
+    }, {
+        "category": "Click",
+        "color": "transparent",
+        "width": 40,
+        "height": 40,
+        "key": -255,
+        "pos": "-350 180",
+        "tag": "point",
+        "name": "1#厂房PLC_2#厂配电柜回路1开关",
+        "pt": "dk_5c467c901c18100001f120bb_38:41"
+    }, {
+        "category": "Click",
+        "color": "transparent",
+        "width": 40,
+        "height": 40,
+        "key": -254,
+        "pos": "-250 180",
+        "tag": "point",
+        "name": "1#厂房PLC_2#厂配电柜回路2开关",
+        "pt": "dk_5c467c901c18100001f120bb_38:42"
+    }, {
+        "category": "Click",
+        "color": "transparent",
+        "width": 40,
+        "height": 40,
+        "key": -253,
+        "pos": "-150 180",
+        "tag": "point",
+        "name": "1#厂房PLC_2#厂配电柜回路3开关",
+        "pt": "dk_5c467c901c18100001f120bb_38:43"
+    }, {
+        "category": "Click",
+        "color": "transparent",
+        "width": 40,
+        "height": 40,
+        "key": -252,
+        "pos": "-50 180",
+        "tag": "point",
+        "name": "1#厂房PLC_2#厂配电柜回路4开关",
+        "pt": "dk_5c467c901c18100001f120bb_38:44"
+    }, {
+        "category": "Click",
+        "color": "transparent",
+        "width": 40,
+        "height": 40,
+        "key": -251,
+        "pos": "50 180",
+        "tag": "point",
+        "name": "1#厂房PLC_2#厂配电柜回路5开关",
+        "pt": "dk_5c467c901c18100001f120bb_38:45"
+    }, {
+        "category": "Click",
+        "color": "transparent",
+        "width": 40,
+        "height": 40,
+        "key": -250,
+        "pos": "150 180",
+        "tag": "point",
+        "name": "1#厂房PLC_2#厂并网柜回路1开关",
+        "pt": "dk_5c467c901c18100001f120bb_38:40"
+    }, {
+        "category": "Click",
+        "color": "transparent",
+        "width": 40,
+        "height": 40,
+        "key": -249,
+        "pos": "350 30",
+        "tag": "point",
+        "name": "1#厂房PLC_试制中心并网柜回路1开关",
+        "pt": "dk_5c467c901c18100001f120bb_38:36"
+    }, {
+        "category": "Click",
+        "color": "transparent",
+        "width": 40,
+        "height": 40,
+        "key": -248,
+        "pos": "750 30",
+        "tag": "point",
+        "name": "1#厂房PLC_试制中心配电柜回路2开关",
+        "pt": "dk_5c467c901c18100001f120bb_38:39"
+    }, {
+        "category": "Click",
+        "color": "transparent",
+        "width": 40,
+        "height": 40,
+        "key": -247,
+        "pos": "650 30",
+        "tag": "point",
+        "name": "1#厂房PLC_试制中心配电柜回路1开关",
+        "pt": "dk_5c467c901c18100001f120bb_38:38"
+    }, {
+        "category": "Click",
+        "color": "transparent",
+        "width": 40,
+        "height": 40,
+        "key": -231,
+        "pos": "450 100",
+        "tag": "device",
+        "name": "试制中心-PCS",
+        "pt": "5c46eadb19d7f500019740e1"
+    }, {
+        "category": "Click",
+        "color": "transparent",
+        "width": 40,
+        "height": 40,
+        "key": -230,
+        "pos": "550 250",
+        "tag": "device",
+        "name": "BMS-100kW",
+        "pt": "5c46eadb19d7f500019740bf"
+    }, {
+        "category": "Click",
+        "color": "transparent",
+        "width": 40,
+        "height": 40,
+        "key": -229,
+        "pos": "450 250",
+        "tag": "device",
+        "name": "BMS-100kW",
+        "pt": "5c46eadb19d7f500019740bf"
+    }, {
+        "category": "Click",
+        "color": "transparent",
+        "width": 40,
+        "height": 40,
+        "key": -228,
+        "pos": "750 470",
+        "tag": "device",
+        "name": "试制中心-5#NBQ",
+        "pt": "5c46eadb19d7f500019740b5"
+    }, {
+        "category": "Click",
+        "color": "transparent",
+        "width": 40,
+        "height": 40,
+        "key": -227,
+        "pos": "650 470",
+        "tag": "device",
+        "name": "试制中心-4#NBQ",
+        "pt": "5c46eadb19d7f5000197409f"
+    }, {
+        "category": "Click",
+        "color": "transparent",
+        "width": 40,
+        "height": 40,
+        "key": -226,
+        "pos": "550 470",
+        "tag": "device",
+        "name": "试制中心-3#NBQ",
+        "pt": "5c46eadb19d7f500019740df"
+    }, {
+        "category": "Click",
+        "color": "transparent",
+        "width": 40,
+        "height": 40,
+        "key": -225,
+        "pos": "450 470",
+        "tag": "device",
+        "name": "试制中心-2#NBQ",
+        "pt": "5c46eadb19d7f500019740bd"
+    }, {
+        "category": "Click",
+        "color": "transparent",
+        "width": 40,
+        "height": 40,
+        "key": -224,
+        "pos": "350 470",
+        "tag": "device",
+        "name": "试制中心-1#NBQ",
+        "pt": "5c46eadb19d7f500019740c7"
+    }, {
+        "category": "Click",
+        "color": "transparent",
+        "width": 40,
+        "height": 40,
+        "key": -223,
+        "pos": "-50 470",
+        "tag": "device",
+        "name": "2#厂房-5#NBQ",
+        "pt": "5c46eadb19d7f500019740b3"
+    }, {
+        "category": "Click",
+        "color": "transparent",
+        "width": 40,
+        "height": 40,
+        "key": -222,
+        "pos": "-150 470",
+        "tag": "device",
+        "name": "2#厂房-4#NBQ",
+        "pt": "5c46eadb19d7f500019740d1"
+    }, {
+        "category": "Click",
+        "color": "transparent",
+        "width": 40,
+        "height": 40,
+        "key": -221,
+        "pos": "-250 470",
+        "tag": "device",
+        "name": "2#厂房-3#NBQ",
+        "pt": "5c46eadb19d7f500019740bb"
+    }, {
+        "category": "Click",
+        "color": "transparent",
+        "width": 40,
+        "height": 40,
+        "key": -220,
+        "pos": "-350 470",
+        "tag": "device",
+        "name": "2#厂房-2#NBQ",
+        "pt": "5c46eadb19d7f500019740cb"
+    }, {
+        "category": "Click",
+        "color": "transparent",
+        "width": 40,
+        "height": 40,
+        "key": -219,
+        "pos": "-450 470",
+        "tag": "device",
+        "name": "2#厂房-1#NBQ",
+        "pt": "5c46eadb19d7f500019740c5"
+    }, {
+        "category": "Connect",
+        "key": -142,
+        "pos": "650 -100"
+    }, {
+        "category": "Connect",
+        "key": -141,
+        "pos": "750 -100"
+    }, {
+        "category": "Connect",
+        "key": -134,
+        "pos": "550 180"
+    }, {
+        "category": "Connect",
+        "key": -140,
+        "pos": "450 180"
+    }, {
+        "category": "Connect",
+        "key": -128,
+        "pos": "550 400"
+    }, {
+        "category": "Connect",
+        "key": -127,
+        "pos": "650 400"
+    }, {
+        "category": "Connect",
+        "key": -126,
+        "pos": "750 400"
+    }, {
+        "category": "Connect",
+        "key": -125,
+        "pos": "450 400"
+    }, {
+        "category": "Connect",
+        "key": -124,
+        "pos": "350 400"
+    }, {
+        "category": "Connect",
+        "key": -114,
+        "pos": "-450 400"
+    }, {
+        "category": "Connect",
+        "key": -113,
+        "pos": "-350 400"
+    }, {
+        "category": "Connect",
+        "key": -112,
+        "pos": "-50 400"
+    }, {
+        "category": "Connect",
+        "key": -111,
+        "pos": "-150 400"
+    }, {
+        "category": "Connect",
+        "key": -110,
+        "pos": "-250 400"
+    }, {
+        "category": "Connect",
+        "key": -108,
+        "pos": "150 110"
+    }, {
+        "category": "Connect",
+        "key": -97,
+        "pos": "-150 110"
+    }, {
+        "category": "Connect",
+        "key": -96,
+        "pos": "-50 110"
+    }, {
+        "category": "Connect",
+        "key": -95,
+        "pos": "50 110"
+    }, {
+        "category": "Connect",
+        "key": -94,
+        "pos": "-250 110"
+    }, {
+        "category": "Connect",
+        "key": -93,
+        "pos": "-350 110"
+    }, {
+        "category": "Connect",
+        "key": -89,
+        "pos": "450 -100"
+    }, {
+        "category": "Connect",
+        "key": -88,
+        "pos": "150 -190"
+    }, {
+        "category": "Connect",
+        "key": -87,
+        "pos": "-150 -190"
+    }, {
+        "category": "Connect",
+        "key": -86,
+        "pos": "-250 -190"
+    }, {
+        "category": "Connect",
+        "key": -82,
+        "pos": "-350 -190"
+    }, {
+        "category": "Model",
+        "icon": "daozha",
+        "svgSize": 32,
+        "iconSize": 40,
+        "runColor": "#F44336",
+        "stopColor": "#9E9E9E",
+        "angle": -90,
+        "key": -327,
+        "pos": "750 -150"
+    }, {
+        "category": "Text",
+        "stroke": "#F44336",
+        "text": "1#厂",
+        "key": -315,
+        "pos": "-450 20"
+    }, {
+        "category": "Text",
+        "stroke": "#F44336",
+        "text": "2#厂",
+        "key": -314,
+        "pos": "-450 290"
+    }, {
+        "category": "Model",
+        "icon": "chongdian",
+        "svgSize": 32,
+        "iconSize": 40,
+        "runColor": "#F44336",
+        "stopColor": "#9E9E9E",
+        "angle": 180,
+        "key": -313,
+        "pos": "-450 250"
+    }, {
+        "category": "Model",
+        "icon": "chongdian",
+        "svgSize": 32,
+        "iconSize": 40,
+        "runColor": "#F44336",
+        "stopColor": "#9E9E9E",
+        "angle": 180,
+        "key": -312,
+        "pos": "-450 -20"
+    }, {
+        "category": "Text",
+        "stroke": "#2196F3",
+        "text": "空调",
+        "key": -300,
+        "pos": "650 140"
+    }, {
+        "category": "Text",
+        "stroke": "#2196F3",
+        "text": "电梯",
+        "key": -299,
+        "pos": "750 140"
+    }, {
+        "category": "Text",
+        "stroke": "#2196F3",
+        "text": "本屋配电室",
+        "key": -297,
+        "pos": "50 290"
+    }, {
+        "category": "Text",
+        "stroke": "#2196F3",
+        "text": "门卫",
+        "key": -296,
+        "pos": "-50 290"
+    }, {
+        "category": "Text",
+        "stroke": "#2196F3",
+        "text": "电梯",
+        "key": -295,
+        "pos": "-350 290"
+    }, {
+        "category": "Text",
+        "stroke": "#2196F3",
+        "text": "泵房",
+        "key": -294,
+        "pos": "-250 290"
+    }, {
+        "category": "Text",
+        "stroke": "#2196F3",
+        "text": "空压机",
+        "key": -293,
+        "pos": "-150 290"
+    }, {
+        "category": "Text",
+        "stroke": "#2196F3",
+        "text": "电梯",
+        "key": -292,
+        "pos": "-150 20"
+    }, {
+        "category": "Text",
+        "stroke": "#2196F3",
+        "text": "空压机",
+        "key": -291,
+        "pos": "-250 20"
+    }, {
+        "category": "Text",
+        "stroke": "#2196F3",
+        "text": "综合楼",
+        "key": -290,
+        "pos": "-350 20"
+    }, {
+        "category": "Model",
+        "icon": "daozha",
+        "svgSize": 32,
+        "iconSize": 40,
+        "runColor": "#F44336",
+        "stopColor": "#9E9E9E",
+        "angle": -90,
+        "key": -289,
+        "pos": "450 30",
+        "tag": "point",
+        "name": "1#厂房PLC_试制中心并网柜回路2合闸位置",
+        "pt": "dx_5c467c901c18100001f120bb_38:345"
+    }, {
+        "category": "Text",
+        "stroke": "#4CAF50",
+        "text": "电池组1",
+        "key": -288,
+        "pos": "450 290"
+    }, {
+        "category": "Text",
+        "stroke": "#4CAF50",
+        "text": "电池组2",
+        "key": -287,
+        "pos": "550 290"
+    }, {
+        "category": "Text",
+        "stroke": "#4CAF50",
+        "text": "1#-1",
+        "key": -272,
+        "pos": "350 510"
+    }, {
+        "category": "Text",
+        "stroke": "#4CAF50",
+        "text": "1#-2",
+        "key": -271,
+        "pos": "450 510"
+    }, {
+        "category": "Text",
+        "stroke": "#4CAF50",
+        "text": "1#-3",
+        "key": -270,
+        "pos": "550 510"
+    }, {
+        "category": "Text",
+        "stroke": "#4CAF50",
+        "text": "1#-5",
+        "key": -269,
+        "pos": "750 510"
+    }, {
+        "category": "Text",
+        "stroke": "#4CAF50",
+        "text": "1#-4",
+        "key": -268,
+        "pos": "650 510"
+    }, {
+        "category": "Text",
+        "stroke": "#4CAF50",
+        "text": "2#-4",
+        "key": -267,
+        "pos": "-150 510"
+    }, {
+        "category": "Text",
+        "stroke": "#4CAF50",
+        "text": "2#-5",
+        "key": -266,
+        "pos": "-50 510"
+    }, {
+        "category": "Text",
+        "stroke": "#4CAF50",
+        "text": "2#-3",
+        "key": -265,
+        "pos": "-250 510"
+    }, {
+        "category": "Text",
+        "stroke": "#4CAF50",
+        "text": "2#-2",
+        "key": -264,
+        "pos": "-350 510"
+    }, {
+        "category": "Text",
+        "stroke": "#4CAF50",
+        "text": "2#-1",
+        "key": -263,
+        "pos": "-450 510"
+    }, {
+        "category": "Model",
+        "icon": "peidiangui",
+        "svgSize": 32,
+        "iconSize": 40,
+        "runColor": "#9E9E9E",
+        "stopColor": "#F44336",
+        "key": -202,
+        "pos": "450 100",
+        "tag": "point",
+        "name": "试制中心-PCS_运行/停止",
+        "pt": "dx_5c467c901c18100001f120bb_37:317"
+    }, {
+        "category": "Model",
+        "icon": "dianchi",
+        "svgSize": 32,
+        "iconSize": 40,
+        "runColor": "#F44336",
+        "stopColor": "#9E9E9E",
+        "key": -201,
+        "pos": "550 250",
+        "tag": "point",
+        "name": "BMS-100kW_电池组2继电器",
+        "pt": "dx_5c467c901c18100001f120bb_36:250"
+    }, {
+        "category": "Model",
+        "icon": "dianchi",
+        "svgSize": 32,
+        "iconSize": 40,
+        "runColor": "#F44336",
+        "stopColor": "#9E9E9E",
+        "key": -200,
+        "pos": "450 250",
+        "tag": "point",
+        "name": "BMS-100kW_电池组1继电器",
+        "pt": "dx_5c467c901c18100001f120bb_36:249"
+    }, {
+        "category": "Model",
+        "icon": "daozha",
+        "svgSize": 32,
+        "iconSize": 40,
+        "runColor": "#F44336",
+        "stopColor": "#9E9E9E",
+        "angle": -90,
+        "key": -146,
+        "pos": "650 30",
+        "tag": "point",
+        "name": "1#厂房PLC_试制中心配电柜回路1合闸位置",
+        "pt": "dx_5c467c901c18100001f120bb_38:346"
+    }, {
+        "category": "Model",
+        "icon": "daozha",
+        "svgSize": 32,
+        "iconSize": 40,
+        "runColor": "#F44336",
+        "stopColor": "#9E9E9E",
+        "angle": -90,
+        "key": -145,
+        "pos": "750 30",
+        "tag": "point",
+        "name": "1#厂房PLC_试制中心配电柜回路2合闸位置",
+        "pt": "dx_5c467c901c18100001f120bb_38:347"
+    }, {
+        "category": "Model",
+        "icon": "chongdian",
+        "svgSize": 32,
+        "iconSize": 40,
+        "runColor": "#F44336",
+        "stopColor": "#9E9E9E",
+        "angle": 180,
+        "key": -144,
+        "pos": "750 100",
+        "tag": "point",
+        "name": "试制中心电梯-多功能表_多功能表总有功功率",
+        "pt": "dc_5c467c901c18100001f120bb_12:111"
+    }, {
+        "category": "Model",
+        "icon": "chongdian",
+        "svgSize": 32,
+        "iconSize": 40,
+        "runColor": "#F44336",
+        "stopColor": "#9E9E9E",
+        "angle": 180,
+        "key": -143,
+        "pos": "650 100",
+        "tag": "point",
+        "name": "试制中心空压机-多功能表_多功能表总有功功率",
+        "pt": "dc_5c467c901c18100001f120bb_11:100"
+    }, {
+        "category": "Model",
+        "icon": "guangfu",
+        "svgSize": 32,
+        "iconSize": 40,
+        "runColor": "#F44336",
+        "stopColor": "#9E9E9E",
+        "key": -133,
+        "pos": "750 470",
+        "tag": "point",
+        "name": "试制中心-5#NBQ_运行",
+        "pt": "dx_5c467c901c18100001f120bb_35:234"
+    }, {
+        "category": "Model",
+        "icon": "guangfu",
+        "svgSize": 32,
+        "iconSize": 40,
+        "runColor": "#F44336",
+        "stopColor": "#9E9E9E",
+        "key": -132,
+        "pos": "650 470",
+        "tag": "point",
+        "name": "试制中心-4#NBQ_运行",
+        "pt": "dx_5c467c901c18100001f120bb_34:220"
+    }, {
+        "category": "Model",
+        "icon": "guangfu",
+        "svgSize": 32,
+        "iconSize": 40,
+        "runColor": "#F44336",
+        "stopColor": "#9E9E9E",
+        "key": -131,
+        "pos": "550 470",
+        "tag": "point",
+        "name": "试制中心-3#NBQ_运行",
+        "pt": "dx_5c467c901c18100001f120bb_33:206"
+    }, {
+        "category": "Model",
+        "icon": "guangfu",
+        "svgSize": 32,
+        "iconSize": 40,
+        "runColor": "#F44336",
+        "stopColor": "#9E9E9E",
+        "key": -130,
+        "pos": "450 470",
+        "tag": "point",
+        "name": "试制中心-2#NBQ_运行",
+        "pt": "dx_5c467c901c18100001f120bb_32:192"
+    }, {
+        "category": "Model",
+        "icon": "guangfu",
+        "svgSize": 32,
+        "iconSize": 40,
+        "runColor": "#F44336",
+        "stopColor": "#9E9E9E",
+        "key": -129,
+        "pos": "350 470",
+        "tag": "point",
+        "name": "试制中心-1#NBQ_运行",
+        "pt": "dx_5c467c901c18100001f120bb_31:178"
+    }, {
+        "category": "Model",
+        "icon": "daozha",
+        "svgSize": 32,
+        "iconSize": 40,
+        "runColor": "#F44336",
+        "stopColor": "#9E9E9E",
+        "angle": -90,
+        "key": -123,
+        "pos": "350 30",
+        "tag": "point",
+        "name": "1#厂房PLC_试制中心并网柜回路1合闸位置",
+        "pt": "dx_5c467c901c18100001f120bb_38:344"
+    }, {
+        "category": "Model",
+        "icon": "guangfu",
+        "svgSize": 32,
+        "iconSize": 40,
+        "runColor": "#F44336",
+        "stopColor": "#9E9E9E",
+        "key": -119,
+        "pos": "-450 470",
+        "tag": "point",
+        "name": "2#厂房-1#NBQ_运行",
+        "pt": "dx_5c467c901c18100001f120bb_26:108"
+    }, {
+        "category": "Model",
+        "icon": "guangfu",
+        "svgSize": 32,
+        "iconSize": 40,
+        "runColor": "#F44336",
+        "stopColor": "#9E9E9E",
+        "key": -118,
+        "pos": "-350 470",
+        "tag": "point",
+        "name": "2#厂房-2#NBQ_运行",
+        "pt": "dx_5c467c901c18100001f120bb_27:122"
+    }, {
+        "category": "Model",
+        "icon": "guangfu",
+        "svgSize": 32,
+        "iconSize": 40,
+        "runColor": "#F44336",
+        "stopColor": "#9E9E9E",
+        "key": -117,
+        "pos": "-250 470",
+        "tag": "point",
+        "name": "2#厂房-3#NBQ_运行",
+        "pt": "dx_5c467c901c18100001f120bb_28:136"
+    }, {
+        "category": "Model",
+        "icon": "guangfu",
+        "svgSize": 32,
+        "iconSize": 40,
+        "runColor": "#F44336",
+        "stopColor": "#9E9E9E",
+        "key": -116,
+        "pos": "-150 470",
+        "tag": "point",
+        "name": "2#厂房-4#NBQ_运行",
+        "pt": "dx_5c467c901c18100001f120bb_29:150"
+    }, {
+        "category": "Model",
+        "icon": "guangfu",
+        "svgSize": 32,
+        "iconSize": 40,
+        "runColor": "#F44336",
+        "stopColor": "#9E9E9E",
+        "key": -115,
+        "pos": "-50 470",
+        "tag": "point",
+        "name": "2#厂房-5#NBQ_运行",
+        "pt": "dx_5c467c901c18100001f120bb_30:164"
+    }, {
+        "category": "Model",
+        "icon": "daozha",
+        "svgSize": 32,
+        "iconSize": 40,
+        "runColor": "#F44336",
+        "stopColor": "#9E9E9E",
+        "angle": -90,
+        "key": -177,
+        "pos": "150 180",
+        "tag": "point",
+        "name": "1#厂房PLC_2#厂并网柜回路1合闸位置",
+        "pt": "dx_5c467c901c18100001f120bb_38:348"
+    }, {
+        "category": "Model",
+        "icon": "chongdian",
+        "svgSize": 32,
+        "iconSize": 40,
+        "runColor": "#F44336",
+        "stopColor": "#9E9E9E",
+        "angle": 180,
+        "key": -107,
+        "pos": "-50 250",
+        "tag": "point",
+        "name": "门卫-多功能表_多功能表总有功功率",
+        "pt": "dc_5c467c901c18100001f120bb_9:78"
+    }, {
+        "category": "Model",
+        "icon": "chongdian",
+        "svgSize": 32,
+        "iconSize": 40,
+        "runColor": "#F44336",
+        "stopColor": "#9E9E9E",
+        "angle": 180,
+        "key": -106,
+        "pos": "50 250",
+        "tag": "point",
+        "name": "配电箱-多功能表_多功能表总有功功率",
+        "pt": "dc_5c467c901c18100001f120bb_10:89"
+    }, {
+        "category": "Model",
+        "icon": "chongdian",
+        "svgSize": 32,
+        "iconSize": 40,
+        "runColor": "#F44336",
+        "stopColor": "#9E9E9E",
+        "angle": 180,
+        "key": -105,
+        "pos": "-150 250",
+        "tag": "point",
+        "name": "2#厂房空压机-多功能表_多功能表总有功功率",
+        "pt": "dc_5c467c901c18100001f120bb_8:67"
+    }, {
+        "category": "Model",
+        "icon": "chongdian",
+        "svgSize": 32,
+        "iconSize": 40,
+        "runColor": "#F44336",
+        "stopColor": "#9E9E9E",
+        "angle": 180,
+        "key": -104,
+        "pos": "-250 250",
+        "tag": "point",
+        "name": "泵房-多功能表_多功能表总有功功率",
+        "pt": "dc_5c467c901c18100001f120bb_7:56"
+    }, {
+        "category": "Model",
+        "icon": "chongdian",
+        "svgSize": 32,
+        "iconSize": 40,
+        "runColor": "#F44336",
+        "stopColor": "#9E9E9E",
+        "angle": 180,
+        "key": -103,
+        "pos": "-350 250",
+        "tag": "point",
+        "name": "2#厂房电梯-多功能表_多功能表总有功功率",
+        "pt": "dc_5c467c901c18100001f120bb_6:45"
+    }, {
+        "category": "Model",
+        "icon": "daozha",
+        "svgSize": 32,
+        "iconSize": 40,
+        "runColor": "#F44336",
+        "stopColor": "#9E9E9E",
+        "angle": -90,
+        "key": -102,
+        "pos": "-250 180",
+        "tag": "point",
+        "name": "1#厂房PLC_2#厂配电柜回路2合闸位置",
+        "pt": "dx_5c467c901c18100001f120bb_38:350"
+    }, {
+        "category": "Model",
+        "icon": "daozha",
+        "svgSize": 32,
+        "iconSize": 40,
+        "runColor": "#F44336",
+        "stopColor": "#9E9E9E",
+        "angle": -90,
+        "key": -101,
+        "pos": "-350 180",
+        "tag": "point",
+        "name": "1#厂房PLC_2#厂配电柜回路1合闸位置",
+        "pt": "dx_5c467c901c18100001f120bb_38:349"
+    }, {
+        "category": "Model",
+        "icon": "daozha",
+        "svgSize": 32,
+        "iconSize": 40,
+        "runColor": "#F44336",
+        "stopColor": "#9E9E9E",
+        "angle": -90,
+        "key": -100,
+        "pos": "-150 180",
+        "tag": "point",
+        "name": "1#厂房PLC_2#厂配电柜回路3合闸位置",
+        "pt": "dx_5c467c901c18100001f120bb_38:351"
+    }, {
+        "category": "Model",
+        "icon": "daozha",
+        "svgSize": 32,
+        "iconSize": 40,
+        "runColor": "#F44336",
+        "stopColor": "#9E9E9E",
+        "angle": -90,
+        "key": -99,
+        "pos": "-50 180",
+        "tag": "point",
+        "name": "1#厂房PLC_2#厂配电柜回路4合闸位置",
+        "pt": "dx_5c467c901c18100001f120bb_38:352"
+    }, {
+        "category": "Model",
+        "icon": "daozha",
+        "svgSize": 32,
+        "iconSize": 40,
+        "runColor": "#F44336",
+        "stopColor": "#9E9E9E",
+        "angle": -90,
+        "key": -98,
+        "pos": "50 180",
+        "tag": "point",
+        "name": "1#厂房PLC_2#厂配电柜回路5合闸位置",
+        "pt": "dx_5c467c901c18100001f120bb_38:353"
+    }, {
+        "category": "Model",
+        "icon": "chongdian",
+        "svgSize": 32,
+        "iconSize": 40,
+        "runColor": "#F44336",
+        "stopColor": "#9E9E9E",
+        "angle": 180,
+        "key": -92,
+        "pos": "-350 -20",
+        "tag": "point",
+        "name": "综合楼-多功能表_多功能表总有功功率",
+        "pt": "dc_5c467c901c18100001f120bb_3:12"
+    }, {
+        "category": "Model",
+        "icon": "chongdian",
+        "svgSize": 32,
+        "iconSize": 40,
+        "runColor": "#F44336",
+        "stopColor": "#9E9E9E",
+        "angle": 180,
+        "key": -91,
+        "pos": "-250 -20",
+        "tag": "point",
+        "name": "1#厂房空压机-多功能表_多功能表总有功功率",
+        "pt": "dc_5c467c901c18100001f120bb_4:23"
+    }, {
+        "category": "Model",
+        "icon": "chongdian",
+        "svgSize": 32,
+        "iconSize": 40,
+        "runColor": "#F44336",
+        "stopColor": "#9E9E9E",
+        "angle": 180,
+        "key": -90,
+        "pos": "-150 -20",
+        "tag": "point",
+        "name": "1#厂房电梯-多功能表_多功能表总有功功率",
+        "pt": "dc_5c467c901c18100001f120bb_5:34"
+    }, {
+        "category": "Model",
+        "icon": "daozha",
+        "svgSize": 32,
+        "iconSize": 40,
+        "runColor": "#F44336",
+        "stopColor": "#9E9E9E",
+        "angle": -90,
+        "key": -85,
+        "pos": "-150 -90",
+        "tag": "point",
+        "name": "1#厂房PLC_1#厂配电柜回路3合闸位置",
+        "pt": "dx_5c467c901c18100001f120bb_38:343"
+    }, {
+        "category": "Model",
+        "icon": "daozha",
+        "svgSize": 32,
+        "iconSize": 40,
+        "runColor": "#F44336",
+        "stopColor": "#9E9E9E",
+        "angle": -90,
+        "key": -84,
+        "pos": "-250 -90",
+        "tag": "point",
+        "name": "1#厂房PLC_1#厂配电柜回路2合闸位置",
+        "pt": "dx_5c467c901c18100001f120bb_38:342"
+    }, {
+        "category": "Model",
+        "icon": "daozha",
+        "svgSize": 32,
+        "iconSize": 40,
+        "runColor": "#F44336",
+        "stopColor": "#9E9E9E",
+        "angle": -90,
+        "key": -83,
+        "pos": "-350 -90",
+        "tag": "point",
+        "name": "1#厂房PLC_1#厂配电柜回路1分闸位置",
+        "pt": "dx_5c467c901c18100001f120bb_38:361"
+    }, {
+        "category": "Model",
+        "icon": "daozha",
+        "svgSize": 32,
+        "iconSize": 40,
+        "runColor": "#F44336",
+        "stopColor": "#9E9E9E",
+        "angle": -90,
+        "key": -196,
+        "pos": "150 -240",
+        "tag": "point",
+        "name": "1#厂房PLC_1#网关柜合闸位置",
+        "pt": "dx_5c467c901c18100001f120bb_38:340"
+    }, {
+        "category": "Model",
+        "icon": "bianyaqi",
+        "svgSize": 55,
+        "iconSize": 60,
+        "runColor": "#F44336",
+        "stopColor": "#9E9E9E",
+        "key": -197,
+        "pos": "150 -310"
+    }, {
+        "category": "Text",
+        "stroke": "#FF9800",
+        "text": "明日白天",
+        "key": -48,
+        "pos": "-910 430",
+        "textName": "3号字体",
+        "font": "bold 24px sans-serif"
+    }, {
+        "category": "Text",
+        "stroke": "#FF9800",
+        "text": "℃",
+        "key": -47,
+        "pos": "-760 430",
+        "textName": "3号字体",
+        "font": "bold 24px sans-serif"
+    }, {
+        "category": "Number",
+        "stroke": "#9E9E9E",
+        "text": 0,
+        "key": -46,
+        "pos": "-820 430.00000000000006",
+        "textName": "2号字体",
+        "font": "bold 32px sans-serif",
+        "tag": "point",
+        "name": "明天白天温度",
+        "pt": "dw_5c458fde1c18100001f120b5_0:15"
+    }, {
+        "category": "Number",
+        "stroke": "#9E9E9E",
+        "text": 0,
+        "key": -45,
+        "pos": "-820 500",
+        "textName": "2号字体",
+        "font": "bold 32px sans-serif",
+        "tag": "point",
+        "name": "明天夜间温度",
+        "pt": "dw_5c458fde1c18100001f120b5_0:16"
+    }, {
+        "category": "Text",
+        "stroke": "#FF9800",
+        "text": "℃",
+        "key": -44,
+        "pos": "-760 500",
+        "textName": "3号字体",
+        "font": "bold 24px sans-serif"
+    }, {
+        "category": "Text",
+        "stroke": "#FF9800",
+        "text": "明日夜间",
+        "key": -43,
+        "pos": "-910 500",
+        "textName": "3号字体",
+        "font": "bold 24px sans-serif"
+    }, {
+        "category": "Text",
+        "stroke": "#FF9800",
+        "text": "今日夜间",
+        "key": -42,
+        "pos": "-910 360",
+        "textName": "3号字体",
+        "font": "bold 24px sans-serif"
+    }, {
+        "category": "Text",
+        "stroke": "#FF9800",
+        "text": "℃",
+        "key": -41,
+        "pos": "-760 360",
+        "textName": "3号字体",
+        "font": "bold 24px sans-serif"
+    }, {
+        "category": "Number",
+        "stroke": "#9E9E9E",
+        "text": 0,
+        "key": -40,
+        "pos": "-820 360",
+        "textName": "2号字体",
+        "font": "bold 32px sans-serif",
+        "tag": "point",
+        "name": "今天夜间温度",
+        "pt": "dw_5c458fde1c18100001f120b5_0:6"
+    }, {
+        "category": "Number",
+        "stroke": "#9E9E9E",
+        "text": 0,
+        "key": -39,
+        "pos": "-820 290",
+        "textName": "2号字体",
+        "font": "bold 32px sans-serif",
+        "tag": "point",
+        "name": "今天白天温度",
+        "pt": "dw_5c458fde1c18100001f120b5_0:5"
+    }, {
+        "category": "Text",
+        "stroke": "#FF9800",
+        "text": "℃",
+        "key": -38,
+        "pos": "-760 290",
+        "textName": "3号字体",
+        "font": "bold 24px sans-serif"
+    }, {
+        "category": "Text",
+        "stroke": "#FF9800",
+        "text": "今日白天",
+        "key": -37,
+        "pos": "-910 290",
+        "textName": "3号字体",
+        "font": "bold 24px sans-serif"
+    }, {
+        "category": "Text",
+        "stroke": "#9E9E9E",
+        "text": "气象信息",
+        "key": -36,
+        "pos": "-850 225",
+        "textName": "2号字体",
+        "font": "bold 32px sans-serif"
+    }↵],
+    ↵"linkDataArray": [↵{
+        "from": -142,
+        "to": -141,
+        "fromPort": "R",
+        "toPort": "L",
+        "points": [654.128, -100, 664.128, -100, 700, -100, 700, -100, 735.872, -100, 745.872, -100],
+        "strokeWidth": 9,
+        "color": "#F44336",
+        "name": "试制中心管控表计总",
+        "pt": "dp_5c491e1fb118f00001f653f1_0:1"
+    }, {
+        "from": -140,
+        "to": -134,
+        "fromPort": "R",
+        "toPort": "L",
+        "points": [454.128, 180, 464.128, 180, 500, 180, 500, 180, 535.872, 180, 545.872, 180],
+        "strokeWidth": 9,
+        "color": "#F44336",
+        "name": "BMS-100kW_电池组2-电池组实时总电流",
+        "pt": "dc_5c467c901c18100001f120bb_36:669"
+    }, {
+        "from": -128,
+        "to": -127,
+        "fromPort": "R",
+        "toPort": "L",
+        "points": [554.128, 400, 564.128, 400, 600, 400, 600, 400, 635.872, 400, 645.872, 400],
+        "strokeWidth": 9,
+        "name": "1#厂房逆变器总有功",
+        "pt": "dp_5c485552eb73c400012557a1_0:1",
+        "color": "#F44336"
+    }, {
+        "from": -127,
+        "to": -126,
+        "fromPort": "R",
+        "toPort": "L",
+        "points": [654.128, 400, 664.128, 400, 700, 400, 700, 400, 735.872, 400, 745.872, 400],
+        "strokeWidth": 9,
+        "name": "1#厂房逆变器总有功",
+        "pt": "dp_5c485552eb73c400012557a1_0:1",
+        "color": "#F44336"
+    }, {
+        "from": -125,
+        "to": -128,
+        "fromPort": "R",
+        "toPort": "L",
+        "points": [454.128, 400, 464.128, 400, 500, 400, 500, 400, 535.872, 400, 545.872, 400],
+        "strokeWidth": 9,
+        "name": "1#厂房逆变器总有功",
+        "pt": "dp_5c485552eb73c400012557a1_0:1",
+        "color": "#F44336"
+    }, {
+        "from": -124,
+        "to": -125,
+        "fromPort": "R",
+        "toPort": "L",
+        "points": [354.128, 400, 364.128, 400, 364.128, 400, 364.128, 400, 435.872, 400, 445.872, 400],
+        "strokeWidth": 9,
+        "name": "1#厂房逆变器总有功",
+        "pt": "dp_5c485552eb73c400012557a1_0:1",
+        "color": "#F44336"
+    }, {
+        "from": -114,
+        "to": -113,
+        "fromPort": "R",
+        "toPort": "L",
+        "points": [-445.872, 400, -435.872, 400, -400, 400, -400, 400, -364.128, 400, -354.128, 400],
+        "strokeWidth": 9,
+        "name": "2#厂房-1#NBQ_总有功功率",
+        "pt": "dc_5c467c901c18100001f120bb_26:270",
+        "color": "#F44336"
+    }, {
+        "from": -111,
+        "to": -110,
+        "fromPort": "L",
+        "toPort": "R",
+        "points": [-154.128, 400, -164.128, 400, -164.128, 400, -164.128, 400, -235.872, 400, -245.872, 400],
+        "strokeWidth": 9,
+        "name": "2#厂房逆变器总有功",
+        "pt": "dp_5c4855b9eb73c400012557a6_0:1",
+        "color": "#F44336"
+    }, {
+        "from": -110,
+        "to": -113,
+        "fromPort": "L",
+        "toPort": "R",
+        "points": [-254.128, 400, -264.128, 400, -264.128, 400, -264.128, 400, -335.872, 400, -345.872, 400],
+        "strokeWidth": 9,
+        "name": "2#厂房逆变器总有功",
+        "pt": "dp_5c4855b9eb73c400012557a6_0:1",
+        "color": "#F44336"
+    }, {
+        "from": -97,
+        "to": -96,
+        "fromPort": "R",
+        "toPort": "L",
+        "points": [-145.872, 110, -135.872, 110, -100, 110, -100, 110, -64.128, 110, -54.128, 110],
+        "strokeWidth": 9,
+        "color": "#F44336",
+        "name": "2#厂管控表计总",
+        "pt": "dp_5c491da3b118f00001f653ec_0:1"
+    }, {
+        "from": -96,
+        "to": -95,
+        "fromPort": "R",
+        "toPort": "L",
+        "points": [-45.872, 110, -35.872, 110, 0, 110, 0, 110, 35.872, 110, 45.872, 110],
+        "strokeWidth": 9,
+        "color": "#F44336",
+        "name": "2#厂管控表计总",
+        "pt": "dp_5c491da3b118f00001f653ec_0:1"
+    }, {
+        "from": -95,
+        "to": -108,
+        "fromPort": "R",
+        "toPort": "L",
+        "points": [54.128, 110, 64.128, 110, 100, 110, 100, 110, 135.872, 110, 145.872, 110],
+        "strokeWidth": 9,
+        "color": "#F44336",
+        "name": "2#厂管控表计总",
+        "pt": "dp_5c491da3b118f00001f653ec_0:1"
+    }, {
+        "from": -94,
+        "to": -97,
+        "fromPort": "R",
+        "toPort": "L",
+        "points": [-245.872, 110, -235.872, 110, -200, 110, -200, 110, -164.128, 110, -154.128, 110],
+        "strokeWidth": 9,
+        "name": "2#厂管控表计总",
+        "pt": "dp_5c491da3b118f00001f653ec_0:1",
+        "color": "#F44336"
+    }, {
+        "from": -93,
+        "to": -94,
+        "fromPort": "R",
+        "toPort": "L",
+        "points": [-345.872, 110, -335.872, 110, -300, 110, -300, 110, -264.128, 110, -254.128, 110],
+        "strokeWidth": 9,
+        "name": "2#厂管控表计总",
+        "pt": "dp_5c491da3b118f00001f653ec_0:1",
+        "color": "#F44336"
+    }, {
+        "from": -311,
+        "to": -93,
+        "fromPort": "R",
+        "toPort": "L",
+        "points": [-445.872, 110, -435.872, 110, -400, 110, -400, 110, -364.128, 110, -354.128, 110],
+        "strokeWidth": 9,
+        "color": "#F44336",
+        "name": "2#厂管控表计总",
+        "pt": "dp_5c491da3b118f00001f653ec_0:1"
+    }, {
+        "from": -89,
+        "to": -142,
+        "fromPort": "R",
+        "toPort": "L",
+        "points": [454.128, -100, 464.128, -100, 550, -100, 550, -100, 635.872, -100, 645.872, -100],
+        "strokeWidth": 9,
+        "color": "#F44336",
+        "name": "试制中心管控表计总",
+        "pt": "dp_5c491e1fb118f00001f653f1_0:1"
+    }, {
+        "from": -319,
+        "to": -89,
+        "fromPort": "R",
+        "toPort": "R",
+        "points": [354.128, -100, 364.128, -100, 364.128, -100, 364.128, -100, 464.128, -100, 454.128, -100],
+        "strokeWidth": 9,
+        "color": "#F44336",
+        "name": "试制中心管控表计总",
+        "pt": "dp_5c491e1fb118f00001f653f1_0:1"
+    }, {
+        "from": -88,
+        "to": -328,
+        "fromPort": "R",
+        "toPort": "L",
+        "points": [154.128, -190, 164.128, -190, 450, -190, 450, -190, 735.872, -190, 745.872, -190],
+        "strokeWidth": 9,
+        "color": "#F44336",
+        "name": "1#厂房PLC_1#网关柜下口-P",
+        "pt": "dc_5c467c901c18100001f120bb_38:765"
+    }, {
+        "from": -88,
+        "to": -108,
+        "fromPort": "B",
+        "toPort": "T",
+        "points": [150, -185.872, 150, -175.872, 150, -40.00000000000001, 150, -40.00000000000001, 150, 95.872, 150, 105.872],
+        "strokeWidth": 9,
+        "color": "#F44336",
+        "name": "1#厂房PLC_1#网关柜下口-P",
+        "pt": "dc_5c467c901c18100001f120bb_38:765"
+    }, {
+        "from": -88,
+        "to": -87,
+        "fromPort": "L",
+        "toPort": "R",
+        "points": [145.872, -190, 135.872, -190, 135.872, -190, 135.872, -190, -135.872, -190, -145.872, -190],
+        "strokeWidth": 9,
+        "color": "#F44336",
+        "name": "1#厂管控表计总",
+        "pt": "dp_5c491d2eb118f00001f653e7_0:1"
+    }, {
+        "from": -87,
+        "to": -86,
+        "fromPort": "L",
+        "toPort": "R",
+        "points": [-154.128, -190, -164.128, -190, -164.128, -190, -164.128, -190, -235.872, -190, -245.872, -190],
+        "strokeWidth": 9,
+        "color": "#F44336",
+        "name": "1#厂管控表计总",
+        "pt": "dp_5c491d2eb118f00001f653e7_0:1"
+    }, {
+        "from": -86,
+        "to": -82,
+        "fromPort": "L",
+        "toPort": "R",
+        "points": [-254.128, -190, -264.128, -190, -264.128, -190, -264.128, -190, -335.872, -190, -345.872, -190],
+        "strokeWidth": 9,
+        "color": "#F44336",
+        "name": "1#厂管控表计总",
+        "pt": "dp_5c491d2eb118f00001f653e7_0:1"
+    }, {
+        "from": -327,
+        "to": -141,
+        "fromPort": "B",
+        "toPort": "T",
+        "points": [750, -130, 750, -120, 750, -117.064, 750, -117.064, 750, -114.128, 750, -104.128],
+        "strokeWidth": {
+            "class": "NaN"
+        },
+        "color": "#F44336",
+        "name": "1#厂房PLC_1#网关柜下口-P",
+        "pt": "dc_5c467c901c18100001f120bb_38:765"
+    }, {
+        "from": -328,
+        "fromPort": "B",
+        "toPort": "",
+        "points": [750, -185.872, 750, -175.872, 749.9701886724902, -175.872, 749.9701886724902, -180.5190892359434, 749.9403773449803, -180.5190892359434, 749.9403773449803, -170.5190892359434],
+        "strokeWidth": {
+            "class": "NaN"
+        },
+        "color": "#F44336",
+        "name": "1#厂房PLC_1#网关柜下口-P",
+        "pt": "dc_5c467c901c18100001f120bb_38:765"
+    }, {
+        "from": -311,
+        "to": -313,
+        "fromPort": "B",
+        "toPort": "T",
+        "points": [-450, 114.128, -450, 124.128, -450, 172.064, -450, 172.064, -450, 220, -450, 230],
+        "strokeWidth": {
+            "class": "NaN"
+        },
+        "color": "#F44336"
+    }, {
+        "from": -310,
+        "to": -312,
+        "fromPort": "B",
+        "toPort": "T",
+        "points": [-450, -185.872, -450, -175.872, -450, -112.936, -450, -112.936, -450, -50, -450, -40],
+        "strokeWidth": {
+            "class": "NaN"
+        },
+        "color": "#F44336"
+    }, {
+        "from": -108,
+        "to": -177,
+        "fromPort": "B",
+        "toPort": "T",
+        "points": [150, 114.128, 150, 124.128, 150, 124.128, 150, 124.128, 150, 150, 150, 160],
+        "strokeWidth": {
+            "class": "NaN"
+        },
+        "name": "2#厂房逆变器总有功",
+        "pt": "dp_5c4855b9eb73c400012557a6_0:1",
+        "color": "#F44336"
+    }, {
+        "from": -177,
+        "to": -112,
+        "fromPort": "B",
+        "toPort": "R",
+        "points": [150, 200, 150, 210, 150, 212, 150, 212, 150, 400, -35.872, 400, -45.872, 400],
+        "strokeWidth": 9,
+        "name": "2#厂房逆变器总有功",
+        "pt": "dp_5c4855b9eb73c400012557a6_0:1",
+        "color": "#F44336"
+    }, {
+        "from": -319,
+        "to": -123,
+        "fromPort": "B",
+        "toPort": "T",
+        "points": [350, -95.872, 350, -85.872, 350, -85.872, 350, -85.872, 350, 0, 350, 10],
+        "strokeWidth": 9,
+        "name": "1#厂房逆变器总有功",
+        "pt": "dp_5c485552eb73c400012557a1_0:1",
+        "color": "#F44336"
+    }, {
+        "from": -123,
+        "to": -124,
+        "fromPort": "B",
+        "toPort": "T",
+        "points": [350, 50, 350, 60, 350, 60, 350, 60, 350, 385.872, 350, 395.872],
+        "strokeWidth": 9,
+        "name": "1#厂房逆变器总有功",
+        "pt": "dp_5c485552eb73c400012557a1_0:1",
+        "color": "#F44336"
+    }, {
+        "from": -115,
+        "to": -112,
+        "fromPort": "T",
+        "toPort": "B",
+        "points": [-50, 450, -50, 440, -50, 427.06399999999996, -50, 427.06399999999996, -50, 414.128, -50, 404.128],
+        "strokeWidth": {
+            "class": "NaN"
+        },
+        "name": "2#厂房-5#NBQ_总有功功率",
+        "pt": "dc_5c467c901c18100001f120bb_30:402",
+        "color": "#F44336"
+    }, {
+        "from": -116,
+        "to": -111,
+        "fromPort": "T",
+        "toPort": "B",
+        "points": [-150, 450, -150, 440, -150, 427.06399999999996, -150, 427.06399999999996, -150, 414.128, -150, 404.128],
+        "strokeWidth": {
+            "class": "NaN"
+        },
+        "name": "2#厂房-4#NBQ_总有功功率",
+        "pt": "dc_5c467c901c18100001f120bb_29:369",
+        "color": "#F44336"
+    }, {
+        "from": -117,
+        "to": -110,
+        "fromPort": "T",
+        "toPort": "B",
+        "points": [-250, 450, -250, 440, -250, 427.06399999999996, -250, 427.06399999999996, -250, 414.128, -250, 404.128],
+        "strokeWidth": {
+            "class": "NaN"
+        },
+        "name": "2#厂房-3#NBQ_总有功功率",
+        "pt": "dc_5c467c901c18100001f120bb_28:336",
+        "color": "#F44336"
+    }, {
+        "from": -118,
+        "to": -113,
+        "fromPort": "T",
+        "toPort": "B",
+        "points": [-350, 450, -350, 440, -350, 427.06399999999996, -350, 427.06399999999996, -350, 414.128, -350, 404.128],
+        "strokeWidth": {
+            "class": "NaN"
+        },
+        "name": "2#厂房-2#NBQ_总有功功率",
+        "pt": "dc_5c467c901c18100001f120bb_27:303",
+        "color": "#F44336"
+    }, {
+        "from": -119,
+        "to": -114,
+        "fromPort": "T",
+        "toPort": "B",
+        "points": [-450, 450, -450, 440, -450, 427.06399999999996, -450, 427.06399999999996, -450, 414.128, -450, 404.128],
+        "strokeWidth": {
+            "class": "NaN"
+        },
+        "name": "2#厂房-1#NBQ_总有功功率",
+        "pt": "dc_5c467c901c18100001f120bb_26:270",
+        "color": "#F44336"
+    }, {
+        "from": -289,
+        "to": -202,
+        "fromPort": "B",
+        "toPort": "T",
+        "points": [450, 50, 450, 60, 450, 65, 450, 65, 450, 70, 450, 80],
+        "strokeWidth": {
+            "class": "NaN"
+        },
+        "name": "综合站房PCS_交流侧有功功率",
+        "pt": "dc_5c467d651c18100001f120be_33:773",
+        "color": "#F44336"
+    }, {
+        "from": -89,
+        "to": -289,
+        "fromPort": "B",
+        "toPort": "T",
+        "points": [450, -95.872, 450, -85.872, 450, -42.936, 450, -42.936, 450, 0, 450, 10],
+        "strokeWidth": {
+            "class": "NaN"
+        },
+        "name": "综合站房PCS_交流侧有功功率",
+        "pt": "dc_5c467d651c18100001f120be_33:773",
+        "color": "#F44336"
+    }, {
+        "from": -133,
+        "to": -126,
+        "fromPort": "T",
+        "toPort": "B",
+        "points": [750, 450, 750, 440, 750, 427.06399999999996, 750, 427.06399999999996, 750, 414.128, 750, 404.128],
+        "strokeWidth": {
+            "class": "NaN"
+        },
+        "name": "试制中心-5#NBQ_总有功功率",
+        "pt": "dc_5c467c901c18100001f120bb_35:567",
+        "color": "#F44336"
+    }, {
+        "from": -132,
+        "to": -127,
+        "fromPort": "T",
+        "toPort": "B",
+        "points": [650, 450, 650, 440, 650, 427.06399999999996, 650, 427.06399999999996, 650, 414.128, 650, 404.128],
+        "strokeWidth": {
+            "class": "NaN"
+        },
+        "name": "试制中心-4#NBQ_总有功功率",
+        "pt": "dc_5c467c901c18100001f120bb_34:534",
+        "color": "#F44336"
+    }, {
+        "from": -131,
+        "to": -128,
+        "fromPort": "T",
+        "toPort": "B",
+        "points": [550, 450, 550, 440, 550, 427.06399999999996, 550, 427.06399999999996, 550, 414.128, 550, 404.128],
+        "strokeWidth": {
+            "class": "NaN"
+        },
+        "name": "试制中心-3#NBQ_总有功功率",
+        "pt": "dc_5c467c901c18100001f120bb_33:501",
+        "color": "#F44336"
+    }, {
+        "from": -130,
+        "to": -125,
+        "fromPort": "T",
+        "toPort": "B",
+        "points": [450, 450, 450, 440, 450, 427.06399999999996, 450, 427.06399999999996, 450, 414.128, 450, 404.128],
+        "strokeWidth": {
+            "class": "NaN"
+        },
+        "name": "试制中心-2#NBQ_总有功功率",
+        "pt": "dc_5c467c901c18100001f120bb_32:468",
+        "color": "#F44336"
+    }, {
+        "from": -129,
+        "to": -124,
+        "fromPort": "T",
+        "toPort": "B",
+        "points": [350, 450, 350, 440, 350, 430.99328859060404, 350, 430.99328859060404, 350, 414.128, 350, 404.128],
+        "strokeWidth": 6,
+        "name": "试制中心-1#NBQ_总有功功率",
+        "pt": "dc_5c467c901c18100001f120bb_31:435",
+        "color": "#F44336"
+    }, {
+        "from": -134,
+        "to": -201,
+        "fromPort": "B",
+        "toPort": "T",
+        "points": [550, 184.128, 550, 194.128, 550, 207.064, 550, 207.064, 550, 220, 550, 230],
+        "strokeWidth": {
+            "class": "NaN"
+        },
+        "color": "#F44336",
+        "name": "BMS-100kW_电池组2-电池组实时总电流",
+        "pt": "dc_5c467c901c18100001f120bb_36:669"
+    }, {
+        "from": -140,
+        "to": -200,
+        "fromPort": "B",
+        "toPort": "T",
+        "points": [450, 184.128, 450, 194.128, 450, 207.064, 450, 207.064, 450, 220, 450, 230],
+        "strokeWidth": {
+            "class": "NaN"
+        },
+        "color": "#F44336",
+        "name": "BMS-100kW_电池组1-实时总电流",
+        "pt": "dc_5c467c901c18100001f120bb_36:630"
+    }, {
+        "from": -202,
+        "to": -140,
+        "fromPort": "B",
+        "toPort": "T",
+        "points": [450, 120, 450, 130, 450, 147.936, 450, 147.936, 450, 165.872, 450, 175.872],
+        "strokeWidth": {
+            "class": "NaN"
+        },
+        "name": "BMS-100kW_电池组1-实时总电流",
+        "pt": "dc_5c467c901c18100001f120bb_36:630",
+        "color": "#F44336"
+    }, {
+        "from": -142,
+        "to": -146,
+        "fromPort": "B",
+        "toPort": "T",
+        "points": [650, -95.872, 650, -85.872, 650, -42.936, 650, -42.936, 650, 0, 650, 10],
+        "strokeWidth": {
+            "class": "NaN"
+        },
+        "color": "#F44336",
+        "name": "试制中心电梯-多功能表_多功能表总有功功率",
+        "pt": "dc_5c467c901c18100001f120bb_12:111"
+    }, {
+        "from": -141,
+        "to": -145,
+        "fromPort": "B",
+        "toPort": "T",
+        "points": [750, -95.872, 750, -85.872, 750, -42.936, 750, -42.936, 750, 0, 750, 10],
+        "strokeWidth": {
+            "class": "NaN"
+        },
+        "color": "#F44336",
+        "name": "试制中心电梯-多功能表_多功能表总有功功率",
+        "pt": "dc_5c467c901c18100001f120bb_12:111"
+    }, {
+        "from": -146,
+        "to": -143,
+        "fromPort": "B",
+        "toPort": "T",
+        "points": [650, 50, 650, 60, 650, 65, 650, 65, 650, 70, 650, 80],
+        "strokeWidth": {
+            "class": "NaN"
+        },
+        "color": "#F44336",
+        "name": "试制中心电梯-多功能表_多功能表总有功功率",
+        "pt": "dc_5c467c901c18100001f120bb_12:111"
+    }, {
+        "from": -145,
+        "to": -144,
+        "fromPort": "B",
+        "toPort": "T",
+        "points": [750, 50, 750, 60, 750, 65, 750, 65, 750, 70, 750, 80],
+        "strokeWidth": {
+            "class": "NaN"
+        },
+        "color": "#F44336",
+        "name": "试制中心电梯-多功能表_多功能表正向有功总电能",
+        "pt": "dc_5c467c901c18100001f120bb_12:118"
+    }, {
+        "from": -98,
+        "to": -106,
+        "fromPort": "B",
+        "toPort": "T",
+        "points": [50, 200, 50, 210, 50, 210, 50, 210, 50, 220, 50, 230],
+        "strokeWidth": {
+            "class": "NaN"
+        },
+        "color": "#F44336",
+        "name": "配电箱-多功能表_多功能表总有功功率",
+        "pt": "dc_5c467c901c18100001f120bb_10:89"
+    }, {
+        "from": -99,
+        "to": -107,
+        "fromPort": "B",
+        "toPort": "T",
+        "points": [-50, 200, -50, 210, -50, 215, -50, 215, -50, 220, -50, 230],
+        "strokeWidth": {
+            "class": "NaN"
+        },
+        "color": "#F44336",
+        "name": "门卫-多功能表_多功能表总有功功率",
+        "pt": "dc_5c467c901c18100001f120bb_9:78"
+    }, {
+        "from": -100,
+        "to": -105,
+        "fromPort": "B",
+        "toPort": "T",
+        "points": [-150, 200, -150, 210, -150, 215, -150, 215, -150, 220, -150, 230],
+        "strokeWidth": 6,
+        "color": "#F44336",
+        "name": "2#厂房空压机-多功能表_多功能表总有功功率",
+        "pt": "dc_5c467c901c18100001f120bb_8:67"
+    }, {
+        "from": -102,
+        "to": -104,
+        "fromPort": "B",
+        "toPort": "T",
+        "points": [-250, 200, -250, 210, -250, 215, -250, 215, -250, 220, -250, 230],
+        "strokeWidth": {
+            "class": "NaN"
+        },
+        "color": "#F44336",
+        "name": "泵房-多功能表_多功能表总有功功率",
+        "pt": "dc_5c467c901c18100001f120bb_7:56"
+    }, {
+        "from": -101,
+        "to": -103,
+        "fromPort": "B",
+        "toPort": "T",
+        "points": [-350, 200, -350, 210, -350, 215, -350, 215, -350, 220, -350, 230],
+        "strokeWidth": {
+            "class": "NaN"
+        },
+        "color": "#F44336",
+        "name": "2#厂房电梯-多功能表_多功能表总有功功率",
+        "pt": "dc_5c467c901c18100001f120bb_6:45"
+    }, {
+        "from": -95,
+        "to": -98,
+        "fromPort": "B",
+        "toPort": "T",
+        "points": [50, 114.128, 50, 124.128, 50, 137.064, 50, 137.064, 50, 150, 50, 160],
+        "strokeWidth": {
+            "class": "NaN"
+        },
+        "name": "配电箱-多功能表_多功能表总有功功率",
+        "pt": "dc_5c467c901c18100001f120bb_10:89"
+    }, {
+        "from": -96,
+        "to": -99,
+        "fromPort": "B",
+        "toPort": "T",
+        "points": [-50, 114.128, -50, 124.128, -50, 137.064, -50, 137.064, -50, 150, -50, 160],
+        "strokeWidth": {
+            "class": "NaN"
+        },
+        "color": "#F44336",
+        "name": "门卫-多功能表_多功能表总有功功率",
+        "pt": "dc_5c467c901c18100001f120bb_9:78"
+    }, {
+        "from": -97,
+        "to": -100,
+        "fromPort": "B",
+        "toPort": "T",
+        "points": [-150, 114.128, -150, 124.128, -150, 137.064, -150, 137.064, -150, 150, -150, 160],
+        "strokeWidth": {
+            "class": "NaN"
+        },
+        "color": "#F44336",
+        "name": "2#厂房空压机-多功能表_多功能表总有功功率",
+        "pt": "dc_5c467c901c18100001f120bb_8:67"
+    }, {
+        "from": -94,
+        "to": -102,
+        "fromPort": "B",
+        "toPort": "T",
+        "points": [-250, 114.128, -250, 124.128, -250, 137.064, -250, 137.064, -250, 150, -250, 160],
+        "strokeWidth": {
+            "class": "NaN"
+        },
+        "color": "#F44336",
+        "name": "泵房-多功能表_多功能表总有功功率",
+        "pt": "dc_5c467c901c18100001f120bb_7:56"
+    }, {
+        "from": -93,
+        "to": -101,
+        "fromPort": "B",
+        "toPort": "T",
+        "points": [-350, 114.128, -350, 124.128, -350, 137.064, -350, 137.064, -350, 150, -350, 160],
+        "strokeWidth": {
+            "class": "NaN"
+        },
+        "color": "#F44336",
+        "name": "2#厂房电梯-多功能表_多功能表总有功功率",
+        "pt": "dc_5c467c901c18100001f120bb_6:45"
+    }, {
+        "from": -85,
+        "to": -90,
+        "fromPort": "B",
+        "toPort": "T",
+        "points": [-150, -70, -150, -60, -150, -55, -150, -55, -150, -50, -150, -40],
+        "strokeWidth": {
+            "class": "NaN"
+        },
+        "color": "#F44336",
+        "name": "1#厂房电梯-多功能表_多功能表总有功功率",
+        "pt": "dc_5c467c901c18100001f120bb_5:34"
+    }, {
+        "from": -84,
+        "to": -91,
+        "fromPort": "B",
+        "toPort": "T",
+        "points": [-250, -70, -250, -60, -250, -55, -250, -55, -250, -50, -250, -40],
+        "strokeWidth": {
+            "class": "NaN"
+        },
+        "color": "#F44336",
+        "name": "1#厂房空压机-多功能表_多功能表总有功功率",
+        "pt": "dc_5c467c901c18100001f120bb_4:23"
+    }, {
+        "from": -83,
+        "to": -92,
+        "fromPort": "B",
+        "toPort": "T",
+        "points": [-350, -70, -350, -60, -350, -55, -350, -55, -350, -50, -350, -40],
+        "strokeWidth": {
+            "class": "NaN"
+        },
+        "color": "#F44336",
+        "name": "综合楼-多功能表_多功能表总有功功率",
+        "pt": "dc_5c467c901c18100001f120bb_3:12"
+    }, {
+        "from": -87,
+        "to": -85,
+        "fromPort": "B",
+        "toPort": "T",
+        "points": [-150, -185.872, -150, -175.872, -150, -147.936, -150, -147.936, -150, -120, -150, -110],
+        "strokeWidth": {
+            "class": "NaN"
+        },
+        "color": "#F44336",
+        "name": "1#厂房电梯-多功能表_多功能表总有功功率",
+        "pt": "dc_5c467c901c18100001f120bb_5:34"
+    }, {
+        "from": -86,
+        "to": -84,
+        "fromPort": "B",
+        "toPort": "T",
+        "points": [-250, -185.872, -250, -175.872, -250, -147.936, -250, -147.936, -250, -120, -250, -110],
+        "strokeWidth": {
+            "class": "NaN"
+        },
+        "color": "#F44336",
+        "name": "1#厂房空压机-多功能表_多功能表总有功功率",
+        "pt": "dc_5c467c901c18100001f120bb_4:23"
+    }, {
+        "from": -82,
+        "to": -83,
+        "fromPort": "B",
+        "toPort": "T",
+        "points": [-350, -185.872, -350, -175.872, -350, -147.936, -350, -147.936, -350, -120, -350, -110],
+        "strokeWidth": {
+            "class": "NaN"
+        },
+        "name": "综合楼-多功能表_多功能表总有功功率",
+        "pt": "dc_5c467c901c18100001f120bb_3:12",
+        "color": "#F44336"
+    }, {
+        "from": -196,
+        "to": -88,
+        "fromPort": "B",
+        "toPort": "T",
+        "points": [150, -220, 150, -210, 150, -207.064, 150, -207.064, 150, -204.128, 150, -194.128],
+        "strokeWidth": {
+            "class": "NaN"
+        },
+        "color": "#F44336",
+        "name": "1#厂房PLC_1#网关柜下口-P",
+        "pt": "dc_5c467c901c18100001f120bb_38:765"
+    }, {
+        "from": -197,
+        "to": -196,
+        "fromPort": "B",
+        "toPort": "T",
+        "points": [150, -280, 150, -270, 150, -270, 150, -270, 150, -270, 150, -260],
+        "strokeWidth": {
+            "class": "NaN"
+        },
+        "name": "1#厂房PLC_1#网关柜下口-P",
+        "pt": "dc_5c467c901c18100001f120bb_38:765"
+    }, {
+        "from": -112,
+        "to": -111,
+        "fromPort": "L",
+        "toPort": "R",
+        "points": [-54.128, 400, -64.128, 400, -64.128, 400, -64.128, 400, -135.872, 400, -145.872, 400],
+        "strokeWidth": 9,
+        "name": "2#厂房逆变器总有功",
+        "pt": "dp_5c4855b9eb73c400012557a6_0:1",
+        "color": "#F44336"
+    }, {
+        "from": -82,
+        "to": -310,
+        "fromPort": "L",
+        "toPort": "R",
+        "points": [-354.128, -190, -364.128, -190, -364.128, -190, -364.128, -190, -435.872, -190, -445.872, -190],
+        "strokeWidth": {
+            "class": "NaN"
+        },
+        "color": "#F44336"
+    }↵]
+}
